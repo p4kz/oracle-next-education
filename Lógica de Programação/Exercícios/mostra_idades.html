@@ -1,0 +1,38 @@
+<meta charset="UTF-8">
+<h1>Mostra idades</h1>
+
+<script>
+
+  function pula() {
+    document.write('<br>')
+    document.write('<br>')
+    document.write('<hr>')
+  }
+
+  function mostra( text ) {
+    document.write(`<big>${ text }</big>`)
+    pula()
+  }
+   
+  const pessoa1 = {
+    nome: 'Eric',
+    idade: 24
+  }
+
+  const pessoa2 = {
+    nome: 'Claudia',
+    idade: 54
+  }
+
+  const pessoa3 = {
+    nome: 'Clovis',
+    idade: 44
+  }
+  
+  let ano = 2022
+
+  mostra(`${pessoa1.nome} nasceu em: ${ano - pessoa1.idade}`)
+  mostra(`${pessoa2.nome} nasceu em: ${ano - pessoa2.idade}`)
+  mostra(`${pessoa3.nome} nasceu em: ${ano - pessoa3.idade}`)
+
+</script>
