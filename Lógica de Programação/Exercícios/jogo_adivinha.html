@@ -18,9 +18,9 @@
   }
 
   function menorMaior () {
-    if ( numeroPensado > chute ) {
+    if ( numeroPensado < chute ) {
       mostra('Numero que você escolheu é maior do que meu =(')
-    } else if ( numeroPensado < chute ) {
+    } else if ( numeroPensado > chute ) {
       mostra('Numero que você escolheu é menor do que meu =(')
     } else if ( numeroPensado === chute ) {
       mostre('Os numeros são identicos  =)')
@@ -42,12 +42,14 @@
       mostra(`Você errrou! Eu tinha pensando no ${numeroPensado}`)
     }   
   }
-    
-  let numeroPensado = sorteia(10)
-  let chute = parseInt(prompt('Já pensei, qual numero você acha que é?'))
   
-  menorMaior()
-  logoAli()
+  let numeroPensado = sorteia(10) 
+  let chute = parseInt(prompt('Já pensei, qual numero você acha que é?'))
+
   mensagem()
+  logoAli()
+  menorMaior()
+  
+  
   
 </script>
