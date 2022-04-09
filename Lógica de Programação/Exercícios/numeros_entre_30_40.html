@@ -1,0 +1,30 @@
+<meta charset="UTF-8">
+<h3>Imprima todos numeros entre 30 e 40 menos 33 e 37</h3>
+
+<script>
+
+  function pula() {
+    document.write('<br>')
+  }
+
+  function mostra( text ) {
+    document.write( text )
+    pula()
+  }
+
+  let numero = 30
+
+  while (numero <= 40 ) {
+    if( numero === 33 ){
+      numero = numero + 1
+    } else if (numero === 37) {
+      numero = numero + 1
+    } else {
+      mostra(numero)
+      numero = numero + 1
+    }
+  }
+  
+  mostra('FIM')
+
+</script>

@@ -1,0 +1,26 @@
+<meta charset="UTF-8">
+<h3>Todos os números pares de 1 a 100.</h3>
+
+<script>
+
+  function pula() {
+    document.write('<br>')
+  }
+  
+  function mostra( text ) {
+    document.write( text )
+    pula()
+  }
+
+  let numero = 0
+
+  while (numero <= 100 ) {
+    if( numero % 2 === 0){
+      mostra(numero)
+    }
+    numero = numero + 1
+  }
+
+  mostra('FIM')
+
+</script>

@@ -1,0 +1,53 @@
+<meta charset="UTF-8">
+<h1>Jogo Adivinha</h1>
+<p><strong>Chute um numero de 0 a 10</strong></p>
+
+<script>
+
+  function pula() {
+    document.write('<br>')
+  }
+
+  function mostra( text ) {
+    document.write( text )
+    pula()
+  }
+
+  function sorteia(n) {
+    return Math.round(Math.random() * n)
+  }
+
+  function menorMaior () {
+    if ( numeroPensado > chute ) {
+      mostra('Numero que você escolheu é maior do que meu =(')
+    } else if ( numeroPensado < chute ) {
+      mostra('Numero que você escolheu é menor do que meu =(')
+    } else if ( numeroPensado === chute ) {
+      mostre('Os numeros são identicos  =)')
+    } 
+  }
+  
+  function logoAli () {
+    if ( chute === numeroPensado - 1) {
+      mostra('Numero que você escolheu estava logo apos o meu ^^')
+    } else if ( chute === numeroPensado + 1) {
+      mostra('Numero que você escolheu estava logo atras do meu ^^')
+    }
+  }
+  
+  function mensagem() {
+    if (chute == numeroPensado) {
+      mostra(`Uau! você acertou, pois eu pensei no ${numeroPensado}`)
+    } else {
+      mostra(`Você errrou! Eu tinha pensando no ${numeroPensado}`)
+    }   
+  }
+    
+  let numeroPensado = sorteia(10)
+  let chute = parseInt(prompt('Já pensei, qual numero você acha que é?'))
+  
+  menorMaior()
+  logoAli()
+  mensagem()
+  
+</script>

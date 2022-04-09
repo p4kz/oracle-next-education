@@ -1,0 +1,26 @@
+<meta charset="UTF-8">
+<h1>Será que posso dirigir?</h1>
+
+<script>
+
+  function pula() {
+    document.write('<br>')
+    document.write('<br>')
+    document.write('<hr>')
+  }
+
+  function mostra( text ) {
+    document.write(`<big>${ text }</big>`)
+    pula()
+  }
+   
+  let idade = parseInt(prompt('Qual sua idade?'))
+  let temCarteira = prompt('Tem carteira reponda S ou N')
+
+  if (idade > 18 && temCarteira == 's') {
+    mostra('Você possui os requisitos minimos para dirigir')
+  } else {
+    mostra('Você não possui os requisitos minimos pra dirigir')
+  }
+
+</script>
