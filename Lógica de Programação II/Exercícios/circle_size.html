@@ -1,0 +1,28 @@
+<canvas width="600" height="400"></canvas>
+
+<script>
+
+  let screen = document.querySelector('canvas')
+  let pen = screen.getContext('2d')
+
+  pen.fillStyle = 'grey'
+  pen.fillRect(0, 0, 600, 400)
+
+  function desenhaCirculo(evento) {
+    let x = evento.pageX - screen.offsetLeft
+    let y = evento.pageY - screen.offsetTop
+    let raio = 10
+
+    if (evento.shiftKey) {
+      raio = raio + 20
+    }
+
+    pen.fillStyle = 'blue'
+    pen.beginPath()
+    pen.arc(x, y, raio, 0, 2 * 3.14)
+    pen.fill()
+  }
+
+  screen.onclick = desenhaCirculo
+
+</script>

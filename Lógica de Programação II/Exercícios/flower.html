@@ -1,0 +1,28 @@
+<canvas width="600" height="400"></canvas>
+
+<script>
+
+  var screen = document.querySelector('canvas');
+  var pen = screen.getContext('2d');
+  pen.fillStyle = 'lightgray';
+  pen.fillRect(0, 0, 600, 400);
+
+  function desenhaCirculo(x, y, raio, cor) {
+    pen.fillStyle = cor;
+    pen.beginPath();
+    pen.arc(x, y, raio, 0, 2*3.14);
+    pen.fill();
+  }
+
+  // center
+  desenhaCirculo(300, 200 , 20 , 'black')
+  // left
+  desenhaCirculo(340, 200 , 20 , 'yellow')
+  // rigth
+  desenhaCirculo(260, 200 , 20 , 'yellow')
+  // top
+  desenhaCirculo(300, 160 , 20 , 'yellow')
+  // botton
+  desenhaCirculo(300, 240 , 20 , 'yellow')
+
+</script>

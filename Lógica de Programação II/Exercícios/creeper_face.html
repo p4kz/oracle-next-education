@@ -1,0 +1,33 @@
+
+<canvas width="600" height="400"></canvas>
+<script>
+
+  let screen = document.querySelector('canvas')
+  let pen = screen.getContext('2d')
+
+
+  // head square
+  pen.fillStyle = 'darkgreen'
+  pen.fillRect(200, 50, 350, 300)
+
+  // eyes left square
+  pen.fillStyle = '#000'
+  pen.fillRect(250, 110, 90, 90)
+
+  // eyes right square
+  pen.fillStyle = '#000'
+  pen.fillRect(410, 110, 90, 90)
+
+  // nose rect
+  pen.fillStyle = '#000'
+  pen.fillRect(340, 200, 70, 100)
+
+  // mouth left rect
+  pen.fillStyle = '#000'
+  pen.fillRect(300, 240, 40, 100)
+
+  // mouth right rect
+  pen.fillStyle = '#000'
+  pen.fillRect(410, 240, 40, 100)
+  
+</script>

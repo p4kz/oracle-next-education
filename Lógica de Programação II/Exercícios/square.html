@@ -1,0 +1,26 @@
+
+<canvas width="600" height="400"></canvas>
+<script>
+
+  let screen = document.querySelector('canvas')
+  let pen = screen.getContext('2d')
+
+
+  // black triangle
+  pen.fillStyle = '#121219'
+  pen.beginPath()
+  pen.moveTo(50, 50)
+  pen.lineTo(50, 400)
+  pen.lineTo(400, 400)
+  pen.fill()
+  
+  // grey triangle
+  pen.fillStyle = '#222'
+  pen.beginPath()
+  pen.moveTo(100, 175)
+  pen.lineTo(100, 350)
+  pen.lineTo(275, 350)
+  pen.fill()
+
+  
+</script>

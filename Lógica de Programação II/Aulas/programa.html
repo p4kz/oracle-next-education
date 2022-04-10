@@ -1,0 +1,34 @@
+
+<canvas width="600" height="400"></canvas>
+<script>
+
+  let tela = document.querySelector('canvas')
+  let pincel = tela.getContext('2d')
+
+  // background
+  pincel.fillStyle = '#222'
+  pincel.fillRect(0, 0, 600, 400)
+
+  // left rect
+  pincel.fillStyle = '#c9c9'
+  pincel.fillRect(0, 0, 200, 400)
+
+  // rigth rect
+  pincel.fillStyle = '#c9c9f9'
+  pincel.fillRect(400, 0, 200, 400)
+
+  // triangle
+  pincel.fillStyle = '#121219'
+  pincel.beginPath()
+  pincel.moveTo(300, 200)
+  pincel.lineTo(200, 400)
+  pincel.lineTo(400, 400)
+  pincel.fill()
+
+  // circle 
+  pincel.fillStyle = '#fff'
+  pincel.beginPath()
+  pincel.arc(300, 200, 20 , 0,2 * 3.14)
+  pincel.fill()
+
+</script>
