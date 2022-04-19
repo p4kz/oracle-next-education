@@ -49,7 +49,7 @@ function obtemPacienteDoFormulario(form) {
     peso: form.peso.value,
     altura: form.altura.value,
     gordura: form.gordura.value,
-    imc: calculaImc(form.peso.value , form.altura.value )
+    imc: calculaImc(form.peso.value, form.altura.value)
   }
 
   return paciente
@@ -107,3 +107,4 @@ function validaPaciente (paciente) {
 
   return erros
 }
+
