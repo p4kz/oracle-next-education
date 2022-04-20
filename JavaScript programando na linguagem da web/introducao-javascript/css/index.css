@@ -145,3 +145,13 @@ button[disabled=disabled], button:disabled {
 	opacity: 0;
 	transition: 0.5s;
 }
+
+
+#filtrar-tabela {
+	margin-bottom: 10px;
+	padding: 5px;
+}
+
+.inv {
+	display: none;
+}
