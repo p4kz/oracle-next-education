@@ -8,26 +8,28 @@ botaoAdcionar.addEventListener('click', () => {
   let form = document.querySelector('#form-adiciona')
 
   let paciente = obtemPacienteDoFormulario(form)
-
-
-  let pacienteTr = montaTr(paciente)
-
+  
   let erros = validaPaciente(paciente)
-
+  
   if (erros.length > 0) {
     exibeMensagensDeErro(erros)
     return
   }
-
-  // Colocando pacienteTr dentro da tabela 
-  let tabela = document.querySelector('#tabela-pacientes')
-  tabela.appendChild(pacienteTr)
-
+  
+  adicionaPacientenaTabela(paciente) 
+  
   form.reset()
-
+  
   let msgErro = document.querySelector('msg-erro')
   msgErro.innerHTML = ''
 })
+
+
+function adicionaPacientenaTabela(paciente) {
+  let pacienteTr = montaTr(paciente)
+  let tabela = document.querySelector('#tabela-pacientes')
+  tabela.appendChild(pacienteTr) 
+}
 
 function exibeMensagensDeErro(erros) {
   let ul = document.querySelector('.msg-erro')
