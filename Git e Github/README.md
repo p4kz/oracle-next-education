@@ -16,3 +16,11 @@ git merge titulo                 = unifica a branch - junção de 2 branch
 git rebase titulo                = atualiza a branch master - com os commits das branch secundaria 
 https://git-school.github.io/visualizing-git/
 
+### ctrl-z
+git reset HEAD nomedoarquivo     = remove do git add
+git revert HashDocommit          = desfaz o commit
+
+### stash
+
+git stash                          = salva os dados para ser alterado depois
+
