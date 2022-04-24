@@ -21,6 +21,12 @@ git reset HEAD nomedoarquivo     = remove do git add
 git revert HashDocommit          = desfaz o commit
 
 ### stash
-
 git stash                          = salva os dados para ser alterado depois
+
+### diff
+git diff  = ve a diferença de um arquivo que não foi commitado ainda 
+git diff hash...hash = mostra a diferença entra 2 commits 
+
+### versão
+git tag -a v0.1.0 -m 'lançando a primeira versão (beta) da aplicação de cursos' = cria versão do app 
 
