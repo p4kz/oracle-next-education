@@ -1,7 +1,13 @@
 <p align="center">
-  <img height="60px" src="https://i.imgur.com/7FeXtgT.png">
-  <img height="60px" src="https://cursos.alura.com.br/assets/images/logos/logo-alura.svg">
+  <img height="60px" src="https://i.imgur.com/w0NvalO.png">
 </p>
+
+
+<p align="center">
+  <img height="9" src="https://i.imgur.com/PvAbpvx.png"> &
+  <img height="13" src="https://i.imgur.com/rEzWrXJ.png">
+</p>
+
 
 <p align="center">
     <a href="https://github.com/p4kz/oracle-next-education#roadmap">Roadmap</a>
@@ -56,7 +62,7 @@
 <h2> :pushpin: Desafios</h2>
 <br>
 
-<p id="challenge">
+<p id="challenge" align="center">
   <a href="https://github.com/p4kz/a-deco" target="_blank"> 
     <img src="https://i.imgur.com/LVI3goy.png" width="100px">
   </a>
@@ -64,8 +70,6 @@
   <a href="https://github.com/p4kz/four-k" target="_blank"> 
     <img src="https://i.imgur.com/GKDsDgn.png" width="100px">
   </a>
-
-  | Click para ver mais :)
 </p>
 
 <br>
