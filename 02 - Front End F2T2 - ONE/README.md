@@ -8,8 +8,16 @@
 <br>
 ✔️ <a href="https://www.alura.com.br/artigos/organizando-o-css-no-seu-projeto">Organizando o CSS no seu projeto</a>
 <br>
+✔️ <a href="https://cursos.alura.com.br/extra/alura-mais/css-flexbox-distribua-elementos-de-forma-responsiva-c301">CSS FlexBox: distribua elementos de forma responsiva</a>
 <br>
-<h4>Projeto prático</h4>
+<br>
+<h4>Outros</h4>
+✔️ <a href="http://flexboxfroggy.com/">Flexbox Froggy</a>
+<br>
+✔️ <a href="http://www.flexboxdefense.com/">Flexbox Defense</a>
+<br>
+<br>
+<h4>Projetos práticos</h4>
 ✔️ <a href="./Flexbox - Posicionando elementos na tela" style="color:#fff;">Flexbox - Posicionando elementos na tela</a>
 <br>
 <br>
