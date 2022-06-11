@@ -12,22 +12,27 @@
 
   grid-template-columns: auto;
 
-  grid-template-rows: 50px 100vh auto;
+  grid-template-rows: 50px auto auto;
 }
 
 .cabecalho {
   grid-area: cabecalho;
 
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
 }
  
 .conteudo {
+  padding: 0 2rem;
   grid-area: conteudo;
-
-
 }
 
 .rodape {
   grid-area: rodape;
-
-
+  color: #333333;
+  font-size: .8rem;
+  text-align: center;
+  padding: 1rem;
+  background: #fdfdfd;
 }

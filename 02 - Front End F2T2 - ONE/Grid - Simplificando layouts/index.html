@@ -9,10 +9,29 @@
 	<link href="./assets/css/reset.css" rel="stylesheet">
 	<link href="./assets/css/style.css" rel="stylesheet">
 	<link href="./assets/css/destaques.css" rel="stylesheet">
+	<link href="./assets/css/menu.css" rel="stylesheet">
 	<link href="./assets/css/populares.css" rel="stylesheet">
 </head>
 <body class="app">
-    <header class="cabecalho">header</header>
+    <header class="cabecalho">
+			<nav class="menu">
+				<ul class="menu__lista">
+						<li class="menu__item">
+								<a class="menu__link ativo" href="#">
+										<i class="fas fa-home"></i>
+										Início
+								</a>
+								<a class="menu__link" href="#">
+										<i class="fas fa-mobile-alt"></i>
+										Aplicativos</a>
+								<a class="menu__link" href="#">
+										<i class="fas fa-gamepad"></i>
+										Jogos
+								</a>
+						</li>
+				</ul>
+		</nav>
+		</header>
     <main class="conteudo">
 			<section class="destaques">
 				<div class="destaques__principal caixa">
@@ -367,7 +386,7 @@
 				</div>
 		</section>
     </main>
-    <footer class="rodape"></footer>
+    <footer class="rodape">Todos os direitos reservados &copy;2022</footer>
     <script src="./assets/js/fontawesome.all.min.js"></script>
 </body>
 </html>
