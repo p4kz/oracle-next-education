@@ -1,0 +1,89 @@
+.populares {
+  margin: 3rem 2rem;
+}
+
+.populares__conteudo {
+  display: flex;
+  flex-wrap: wrap;
+
+  grid-area: card-conteudo;
+  padding: 1rem 0;
+}
+
+.populares__card {
+  display: grid;
+  grid-template-areas:
+    "card-image"
+    "card-corpo"
+  ;
+
+  grid-template-columns: 100%;
+  grid-template-rows: 173px auto;
+
+  width: calc(20% - 1rem);
+  margin-right: 1rem;
+  background: #fdfdfd;
+}
+
+.populares__card:last-child {
+  margin-right: 0;
+}
+
+.populares__card___imagem {
+  grid-area: card-image;
+  width: 100%;
+  height: 100%;
+}
+
+.populares__card___corpo {
+  display: grid;
+
+  grid-template-areas:
+    "card-cabecalho"
+    "card-conteudo"
+  ;
+
+  grid-template-rows: 50px auto;
+
+  grid-row-gap: 0.5rem;
+
+  grid-area: card-corpo;
+  padding: .75rem;
+}
+
+.populares__card___titulo {
+	font-size: 1.5rem;
+  color: #333333 ;
+}
+
+.populares__card___data {
+  font-size: .9rem;
+  color: #808080;
+}
+
+.populares__card___descricao {
+  color: #333333;
+  line-height: 1.5;
+  margin: 1rem 0;
+  text-align: justify;
+}
+
+.populares__titulo {
+  font-weight: 500;
+}
+
+.populares__icone {
+  margin-right: .25rem;
+}
+
+.populares__cabecalho {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.populares__botao {
+  border: 0;
+  background: transparent;
+  color: #333333;
+}

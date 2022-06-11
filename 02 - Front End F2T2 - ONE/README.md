@@ -20,6 +20,7 @@
 <h4>Projetos práticos</h4>
 ✔️ <a href="./Flexbox - Posicionando elementos na tela" style="color:#fff;">Flexbox - Posicionando elementos na tela</a>
 <br>
+✔️ <a href="./Grid - Simplificando layouts" style="color:#fff;">Grid - Simplificando layouts</a>
 <br>
 <!-- <a href=""> </a>
 <br> -->
