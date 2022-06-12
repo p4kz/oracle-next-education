@@ -24,5 +24,7 @@
 <br>
 ✔️ <a href="./Grid - Simplificando layouts" style="color:#fff;">Grid - Simplificando layouts</a>
 <br>
+✔️ <a href="./Layouts Responsivos: trabalhando com layouts mobile" style="color:#fff;">Layouts Responsivos: trabalhando com layouts mobile</a>
+<br>
 <!-- <a href=""> </a>
 <br> -->
