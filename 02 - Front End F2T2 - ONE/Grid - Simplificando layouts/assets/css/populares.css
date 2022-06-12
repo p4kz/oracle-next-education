@@ -18,10 +18,6 @@
   ;
 
   grid-template-columns: 100%;
-  grid-template-rows: 173px auto;
-
-  width: calc(20% - 1rem);
-  margin-right: 1rem;
   background: #fdfdfd;
 }
 

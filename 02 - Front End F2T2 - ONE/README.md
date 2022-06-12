@@ -10,6 +10,8 @@
 <br>
 ✔️ <a href="https://cursos.alura.com.br/extra/alura-mais/css-flexbox-distribua-elementos-de-forma-responsiva-c301">CSS FlexBox: distribua elementos de forma responsiva</a>
 <br>
+✔️ <a href="https://www.alura.com.br/artigos/criando-layouts-com-css-grid-layout">Criando Layouts com CSS Grid Layout</a>
+<br>
 <br>
 <h4>Outros</h4>
 ✔️ <a href="http://flexboxfroggy.com/">Flexbox Froggy</a>
