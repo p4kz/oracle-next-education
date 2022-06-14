@@ -25,7 +25,7 @@
 .cartao {
     display: flex;
     flex-direction: column;
-
+    align-items: center;
     background-color: var(--branco);
 
     width: 100%;
@@ -70,7 +70,6 @@
 .cartao__botao {
     font-size: 1.2rem;
     font-weight: 700;
-
     width: 100%;
 
     align-self: center;
@@ -103,4 +102,22 @@
 
 .cartao__botao--mega {
     border-color: var(--planos-cartao-mega);
+}
+
+@media screen and (min-width: 768px) {
+    .cartao {
+        max-width: 600px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .planos__cartoes {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    .cartao {
+        max-width: 300px;
+    }
 }

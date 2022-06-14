@@ -34,3 +34,11 @@
     margin-bottom: 1.25rem;
     margin-left: .7rem;
 }
+
+@media screen and (min-width: 1024px) {
+    .cabecalho {
+        flex-direction: row;
+        justify-content: space-between;
+        border: none;
+    }
+}

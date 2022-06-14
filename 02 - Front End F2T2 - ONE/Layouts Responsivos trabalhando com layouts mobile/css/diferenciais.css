@@ -42,3 +42,13 @@
 .item__texto {
   line-height: normal;
 }
+
+@media screen and (min-width: 768px) {
+  .diferenciais {
+    background: var(--cinza-claro);
+  }
+
+  .diferenciais__lista {
+    justify-content: space-around;
+  }
+}

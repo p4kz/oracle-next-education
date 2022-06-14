@@ -12,6 +12,10 @@
 <br>
 ✔️ <a href="https://www.alura.com.br/artigos/criando-layouts-com-css-grid-layout">Criando Layouts com CSS Grid Layout</a>
 <br>
+✔️ <a href="https://css-tricks.com/snippets/css/media-queries-for-standard-devices/">Media Queries for Standard Devices</a>
+<br>
+✔️ <a href="https://www.alura.com.br/artigos/como-lidar-com-os-limites-de-resolucao-em-sites-responsivos">Como lidar com os limites de resolução em sites responsivos?</a>
+<br>
 <br>
 <h4>Outros</h4>
 ✔️ <a href="http://flexboxfroggy.com/">Flexbox Froggy</a>

@@ -16,7 +16,6 @@
 
 .sobre__texto {
   line-height: normal;
-
   margin-bottom: 1rem;
 }
 
@@ -31,4 +30,31 @@
   justify-content: space-evenly;
 
   margin-bottom: 1rem;
+}
+
+.sobre__imagem {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .sobre {
+    display: flex;
+  }
+
+  .sobre__conteudo {
+    margin-right: 3rem;
+  }
+
+  .sobre__titulo {
+    text-align: left;
+  }
+
+  .sobre__imagem {
+    display: block;
+  }
+
+  .sobre__texto--divisao {
+    border-bottom: 1px solid var(--cinza-medio);
+    padding-bottom: 1.5rem;
+  }
 }

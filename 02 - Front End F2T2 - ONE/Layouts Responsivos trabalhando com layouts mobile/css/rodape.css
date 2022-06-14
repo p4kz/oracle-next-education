@@ -33,3 +33,17 @@
 
   margin: 0 .5rem .7rem;
 }
+
+@media screen and (min-width: 1024px) {
+  .rodape {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  }
+
+  .rodape__navegacao {
+      text-align: left;
+
+      min-width: 600px;
+  }
+}
