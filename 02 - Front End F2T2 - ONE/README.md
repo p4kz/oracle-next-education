@@ -20,7 +20,7 @@
 <h4>Outros</h4>
 ✔️ <a href="http://flexboxfroggy.com/">Flexbox Froggy</a>
 <br>
-✔️ <a href="http://www.flexboxdefense.com/">Flexbox Defense</a>
+✔️ <a href="http://www.flexboxdefense.com/">Flexbox Defense</a> 
 <br>
 <br>
 <h4>Projetos práticos</h4>
@@ -28,7 +28,9 @@
 <br>
 ✔️ <a href="./Grid - Simplificando layouts" style="color:#fff;">Grid - Simplificando layouts</a>
 <br>
-✔️ <a href="./Layouts Responsivos: trabalhando com layouts mobile" style="color:#fff;">Layouts Responsivos: trabalhando com layouts mobile</a>
+✔️ <a href="./Layouts Responsivos: trabalhando com layouts mobile" style="color:#fff;">Layouts Responsivos: Trabalhando com layouts mobile</a>
+<br>
+✔️ <a href="./Arquitetura CSS - Descomplicando os problemas" style="color:#fff;">Arquitetura CSS: Descomplicando os problemas</a>
 <br>
 <!-- <a href=""> </a>
 <br> -->
