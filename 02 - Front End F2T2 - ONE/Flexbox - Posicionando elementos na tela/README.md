@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://i.imgur.com/42zlc9i.png">
+  <img src="https://i.imgur.com/1hMmEWD.png">
 </p>
 
 ## :pushpin: Installation
