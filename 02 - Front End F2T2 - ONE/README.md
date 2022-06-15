@@ -16,6 +16,8 @@
 <br>
 ✔️ <a href="https://www.alura.com.br/artigos/como-lidar-com-os-limites-de-resolucao-em-sites-responsivos">Como lidar com os limites de resolução em sites responsivos?</a>
 <br>
+✔️ <a href="https://css-tricks.com/bem-101/">BEM - Block Element Modifier / Metodologia CSS</a>
+<br>
 <br>
 <h4>Outros</h4>
 ✔️ <a href="http://flexboxfroggy.com/">Flexbox Froggy</a>

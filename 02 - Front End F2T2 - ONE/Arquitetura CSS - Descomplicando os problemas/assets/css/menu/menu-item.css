@@ -1,7 +1,7 @@
-.menu-item {
+.menu__item {
   list-style: none;
 }
 
-.menu-item:last-child a {
+.menu__item:last-child a {
   margin-right: 0;
 }
