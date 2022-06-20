@@ -1,3 +1,7 @@
 .banner {
   position: relative;
+  background: url(../../img/banner.jpg) center no-repeat;
+  background-size: cover;
+
+  height: calc(100vh - 72px);
 }

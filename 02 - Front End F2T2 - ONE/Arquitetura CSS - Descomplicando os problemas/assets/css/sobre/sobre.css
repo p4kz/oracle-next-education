@@ -2,3 +2,15 @@
   text-align: center;
   padding: 2.5rem;
 }
+
+@media screen and (min-width: 0) {
+  .sobre {
+    padding: 2.5rem 1rem;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .sobre {
+    padding: 2.5rem;
+  }
+}
