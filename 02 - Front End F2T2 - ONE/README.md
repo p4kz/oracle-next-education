@@ -18,11 +18,15 @@
 <br>
 ✔️ <a href="https://css-tricks.com/bem-101/">BEM - Block Element Modifier / Metodologia CSS</a>
 <br>
+✔️ <a href="https://www.alura.com.br/artigos/porque-usar-em-no-seu-css-hoje-em-dia">Porque usar 'em' no seu CSS hoje em dia?</a>
+<br>
 <br>
 <h4>Outros</h4>
-✔️ <a href="http://flexboxfroggy.com/">Flexbox Froggy</a>
+✔️ <a href="http://flexboxfroggy.com/">Flexbox Froggy</a> - ✔️ <a href="http://www.flexboxdefense.com/">Flexbox Defense</a> - Games para treinar o flexbox.
 <br>
-✔️ <a href="http://www.flexboxdefense.com/">Flexbox Defense</a> 
+✔️ <a href="https://www.apple.com/br/accessibility/vision/">VoiceOver</a> - ✔️<a href="https://www.freedomscientific.com/products/software/jaws/">JAWS</a> - ✔️ <a href="https://www.nvaccess.org/download/">NVDA</a> - Leitores de tela para checar acessibilidade.
+<br>
+✔️ <a href="https://www.apple.com/br/accessibility/vision/">Acessibilidade - Marina Domingues</a> - Slides, a motivação para fazer sites acessíveis.
 <br>
 <br>
 <h4>Projetos práticos</h4>
@@ -30,9 +34,11 @@
 <br>
 ✔️ <a href="./Grid - Simplificando layouts" style="color:#fff;">Grid - Simplificando layouts</a>
 <br>
-✔️ <a href="./Layouts Responsivos: trabalhando com layouts mobile" style="color:#fff;">Layouts Responsivos: Trabalhando com layouts mobile</a>
+✔️ <a href="./Layouts Responsivos trabalhando com layouts mobile" style="color:#fff;">Layouts Responsivos: Trabalhando com layouts mobile</a>
 <br>
 ✔️ <a href="./Arquitetura CSS - Descomplicando os problemas" style="color:#fff;">Arquitetura CSS: Descomplicando os problemas</a>
+<br>
+✔️ <a href="./Acessibilidade web - tornando seu front-end inclusivo" style="color:#fff;">Acessibilidade web - tornando seu front-end inclusivo</a>
 <br>
 <!-- <a href=""> </a>
 <br> -->

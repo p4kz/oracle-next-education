@@ -1,0 +1,37 @@
+.secaoInstitucional {
+  color: #666;
+  text-align: center;
+}
+
+.secaoInstitucional-endereco {
+  font-size: 1.5em;
+  font-style: italic;
+  line-height: 1.5;
+  margin: 1.2em 0;
+}
+
+.secaoInstitucional-telefone {
+  font-size: 1.2em;
+}
+
+.secaoInstitucional-video {
+  width: 100%;
+  max-width: 550px;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+@media (min-width: 830px) {
+
+  .secaoInstitucional-coluna {
+    float: left;
+    text-align: left;
+    width: 40%;
+  }
+
+  .secaoInstitucional-video {
+    width: 40%;
+    margin-top: 0;
+  }
+  
+}
