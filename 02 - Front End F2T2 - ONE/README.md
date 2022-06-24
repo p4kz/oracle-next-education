@@ -20,6 +20,8 @@
 <br>
 ✔️ <a href="https://www.alura.com.br/artigos/porque-usar-em-no-seu-css-hoje-em-dia">Porque usar 'em' no seu CSS hoje em dia?</a>
 <br>
+✔️ <a href="https://www.alura.com.br/artigos/criando-componentes-css-com-padrao-bem">Criando componentes CSS com o padrão BEM</a>
+<br>
 <br>
 <h4>Outros</h4>
 ✔️ <a href="http://flexboxfroggy.com/">Flexbox Froggy</a> - ✔️ <a href="http://www.flexboxdefense.com/">Flexbox Defense</a> - Games para treinar o flexbox.
