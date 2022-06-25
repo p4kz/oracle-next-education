@@ -22,6 +22,8 @@
 <br>
 ✔️ <a href="https://www.alura.com.br/artigos/criando-componentes-css-com-padrao-bem">Criando componentes CSS com o padrão BEM</a>
 <br>
+✔️ <a href="https://www.alura.com.br/artigos/capturando-valor-do-input-introducao-a-seletores">Capturando valor do input: introdução a seletores</a>
+<br>
 <br>
 <h4>Outros</h4>
 ✔️ <a href="http://flexboxfroggy.com/">Flexbox Froggy</a> - ✔️ <a href="http://www.flexboxdefense.com/">Flexbox Defense</a> - Games para treinar o flexbox.
@@ -41,6 +43,8 @@
 ✔️ <a href="./Arquitetura CSS - Descomplicando os problemas" style="color:#fff;">Arquitetura CSS: Descomplicando os problemas</a>
 <br>
 ✔️ <a href="./Acessibilidade web - tornando seu front-end inclusivo" style="color:#fff;">Acessibilidade web - tornando seu front-end inclusivo</a>
+<br>
+✔️ <a href="./JS na Web - Manipule o DOM com JavaScript" style="color:#fff;">JS na Web - Manipule o DOM com JavaScript</a>
 <br>
 <!-- <a href=""> </a>
 <br> -->
