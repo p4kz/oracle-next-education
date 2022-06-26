@@ -1,3 +1,7 @@
+// Immediately Invoked Function Expression
+
+import BotaoConclui from "./components/concluiTarefa.js"
+import BotaoDeleta from "./components/deletaTarefa.js"
 
 const criarTarefa = (event) => {
   event.preventDefault()
@@ -13,10 +17,12 @@ const criarTarefa = (event) => {
 
   tarefa.innerHTML = conteudo
   lista.appendChild(tarefa)
-
+  
+  tarefa.appendChild(BotaoConclui())
+  tarefa.appendChild(BotaoDeleta())
+  
   input.value = " "
 }
 
 const novaTarefa = document.querySelector('[data-form-button]')
-
 novaTarefa.addEventListener('click', criarTarefa)
