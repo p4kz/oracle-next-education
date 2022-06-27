@@ -46,5 +46,7 @@
 <br>
 ✔️ <a href="./JS na Web - Manipule o DOM com JavaScript" style="color:#fff;">JS na Web - Manipule o DOM com JavaScript</a>
 <br>
+✔️ <a href="./JS na Web - Armazenando dados no navegador" style="color:#fff;">JS na Web - Armazenando dados no navegador</a>
+<br>
 <!-- <a href=""> </a>
 <br> -->
