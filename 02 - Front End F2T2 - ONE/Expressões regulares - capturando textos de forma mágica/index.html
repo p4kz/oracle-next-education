@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Alura - Expressões regulares</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css"> 
+</head>
+
+<body class="container">
+    
+    <h1 class="text-left">Expressões regulares</h1>
+    
+    <form class="form" >
+        
+        <div class="form-group">
+            <label for="target">Target string (alvo)</label>
+            <input type="text" id="target" class="form-control" value="" autocomplete="off" required autofocus placeholder="Digite um target" />        
+        </div>    
+        
+        <div class="form-group">
+            <label for="pattern">Pattern (expressão regular)</label>
+            <input type="text" id="pattern" class="form-control" value="" autocomplete="off" required  placeholder="Digite um pattern"/>
+        </div>
+
+        <div class="form-group">                
+            <button class="btn btn-primary" onclick="executa(event)">Executar Regex</button>
+        </div>
+
+        <div class="checkbox">
+            <label><input type="checkbox" id="mostraIndex" value="true" />Mostra índice </label>
+            <label></label>
+            <label><input type="checkbox" id="mostraGrupos" value="true" />Mostra grupos </label>
+        </div>
+
+        <div class="form-group">
+            <label for="resultado" id="labelResultados">Matches (resultados)</label>
+            <input type="text" id="resultado" class="form-control" value="" readonly />
+        </div>
+
+        <div class="form-group">
+            <label for="resultado" id="labelHighlight">Highlight</label>
+            <div id="highlightText" style="font-size:30px;"></div>
+        </div>
+        
+    </form>
+
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <div class="form-group">
+
+      <textarea class="form-control" rows="5" id="comment"></textarea>
+
+    </div>
+   <br />
+
+    <script src="js/regex.js"></script>
+    </body>
+</html>

@@ -24,6 +24,8 @@
 <br>
 ✔️ <a href="https://www.alura.com.br/artigos/capturando-valor-do-input-introducao-a-seletores">Capturando valor do input: introdução a seletores</a>
 <br>
+✔️ <a href="https://www.alura.com.br/artigos/como-utilizar-terminal-integrado-visual-studio-code">Como utilizar o terminal integrado do Visual Studio Code</a>
+<br>
 <br>
 <h4>Outros</h4>
 ✔️ <a href="http://flexboxfroggy.com/">Flexbox Froggy</a> - ✔️ <a href="http://www.flexboxdefense.com/">Flexbox Defense</a> - Games para treinar o flexbox.
@@ -31,6 +33,8 @@
 ✔️ <a href="https://www.apple.com/br/accessibility/vision/">VoiceOver</a> - ✔️<a href="https://www.freedomscientific.com/products/software/jaws/">JAWS</a> - ✔️ <a href="https://www.nvaccess.org/download/">NVDA</a> - Leitores de tela para checar acessibilidade.
 <br>
 ✔️ <a href="https://www.apple.com/br/accessibility/vision/">Acessibilidade - Marina Domingues</a> - Slides, a motivação para fazer sites acessíveis.
+<br>
+✔️ <a href="https://cursos.alura.com.br/extra/alura-mais/template-string-c123">Template String</a> - Video extra
 <br>
 <br>
 <h4>Projetos práticos</h4>
@@ -47,6 +51,8 @@
 ✔️ <a href="./JS na Web - Manipule o DOM com JavaScript" style="color:#fff;">JS na Web - Manipule o DOM com JavaScript</a>
 <br>
 ✔️ <a href="./JS na Web - Armazenando dados no navegador" style="color:#fff;">JS na Web - Armazenando dados no navegador</a>
+<br>
+✔️ <a href="./Expressões regulares - capturando textos de forma mágica" style="color:#fff;">Expressões regulares - capturando textos de forma mágica</a>
 <br>
 <!-- <a href=""> </a>
 <br> -->
