@@ -54,5 +54,7 @@
 <br>
 ✔️ <a href="./Expressões regulares - capturando textos de forma mágica" style="color:#fff;">Expressões regulares - capturando textos de forma mágica</a>
 <br>
+✔️ <a href="./JS na Web - CRUD com JavaScript assíncrono" style="color:#fff;">JS na Web - CRUD com JavaScript assíncrono</a>
+<br>
 <!-- <a href=""> </a>
 <br> -->
