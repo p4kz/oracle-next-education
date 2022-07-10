@@ -24,7 +24,9 @@
 <br>
 ✔️ <a href="https://www.alura.com.br/artigos/capturando-valor-do-input-introducao-a-seletores">Capturando valor do input: introdução a seletores</a>
 <br>
-✔️ <a href="https://www.alura.com.br/artigos/como-utilizar-terminal-integrado-visual-studio-code">Como utilizar o terminal integrado do Visual Studio Code</a>
+✔️ <a href="https://www.alura.com.br/artigos/comecando-com-fetch-no-javascript">Como utilizar o terminal integrado do Visual Studio Code</a>
+<br>
+✔️ <a href="https://www.alura.com.br/artigos/como-utilizar-terminal-integrado-visual-studio-code">Começando com fetch no Javascript</a>
 <br>
 <br>
 <h4>Outros</h4>
