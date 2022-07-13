@@ -16,7 +16,7 @@ const criaNovaLinha = (nome, email, id) => {
     </td> 
   `
   linhaNovoCliente.innerHTML = conteudo
-
+  
   //Passando id
   linhaNovoCliente.dataset.id = id
   
@@ -26,23 +26,35 @@ const criaNovaLinha = (nome, email, id) => {
 // Percorrendo a arvore do dom
 const tabela = document.querySelector('[data-tabela]')
 
-tabela.addEventListener('click', (evento) => {
+tabela.addEventListener('click', async (evento) => {
   let ehBotaoDeletar = evento.target.className === 'botao-simples botao-simples--excluir'
-
+  
   if (ehBotaoDeletar) {
-    const linhaCliente = evento.target.closest('[data-id]')
-    let id = linhaCliente.dataset.id
-    clienteService.removeCliente(id)
-    .then( () => {
+    try {
+
+      const linhaCliente = evento.target.closest('[data-id]')
+      let id = linhaCliente.dataset.id
+      await clienteService.removeCliente(id)
       linhaCliente.remove()
-    })
+    } catch (erro) {
+      console.log(erro)
+      window.location.href = '../telas/erro.html'
+    }
   }
 }) 
 
 // Exibindo na tela
-clienteService.listaClientes()
-  .then(data => {
-    data.forEach(elemento => {
+const render = async () => {
+  try {
+    const listaClientes = await clienteService.listaClientes()
+    
+    listaClientes.forEach(elemento => {
       tabela.appendChild(criaNovaLinha(elemento.nome, elemento.email, elemento.id))
     })
-  })
+  } catch (erro) {
+    console.log(erro)
+    window.location.href = '../telas/erro.html'
+  }
+}
+
+render()
