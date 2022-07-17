@@ -58,5 +58,7 @@
 <br>
 ✔️ <a href="./JS na Web - CRUD com JavaScript assíncrono" style="color:#fff;">JS na Web - CRUD com JavaScript assíncrono</a>
 <br>
+✔️ <a href="./JS na Web - Validação de formulário" style="color:#fff;">JS na Web - Validação de formulário</a>
+<br>
 <!-- <a href=""> </a>
 <br> -->
