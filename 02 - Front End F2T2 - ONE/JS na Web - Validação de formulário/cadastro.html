@@ -24,17 +24,17 @@
                 <fieldset>
                     <legend class="formulario__legenda">Informações básicas</legend>
                     <div class="input-container">
-                        <input name="nome" id="nome" class="input" type="text" placeholder="Nome" required>
+                        <input name="nome" id="nome" class="input" type="text" placeholder="Nome" data-tipo="nome" required>
                         <label class="input-label" for="nome">Nome</label>
                         <span class="input-mensagem-erro">Este campo não está válido</span>
                     </div>
                     <div class="input-container">
-                        <input name="email" id="email" class="input" type="email" placeholder="Email" required>
+                        <input name="email" id="email" class="input" type="email" placeholder="Email" data-tipo="email" required>
                         <label class="input-label" for="email">Email</label>
                         <span class="input-mensagem-erro">Este campo não está válido</span>
                     </div>
                     <div class="input-container">
-                        <input name="senha" id="senha" class="input" type="password" placeholder="Senha" pattern="^(?=.*[a-z])(?=.*[0-9])(?!.*[!@#$%^&*_=+-]).{6,12}$" title="A senha deve conter entre 6 a 12 caracteres, pelomenos uma letra maiuscula, um numero e não deve conter simbolos" required>
+                        <input name="senha" id="senha" class="input" type="password" placeholder="Senha" data-tipo="senha" pattern="^(?=.*[a-z])(?=.*[0-9])(?!.*[!@#$%^&*_=+-]).{6,12}$" title="A senha deve conter entre 6 a 12 caracteres, pelomenos uma letra maiuscula, um numero e não deve conter simbolos" required>
                         <label class="input-label" for="senha">Senha</label>
                         <span class="input-mensagem-erro">Este campo não está válido</span>
                     </div>
@@ -79,6 +79,6 @@
             </form>
         </section>
     </main>
-    <script src="./js/validacao.js"></script>
+    <script type="module" src="./js/app.js"></script>
 </body>
 </html>
