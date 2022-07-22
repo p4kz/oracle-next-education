@@ -55,22 +55,22 @@
                 <fieldset>
                     <legend class="formulario__legenda">Endereço</legend>
                     <div class="input-container">
-                        <input name="cep" id="cep" class="input" type="text" placeholder="CEP">
+                        <input name="cep" id="cep" class="input" type="text" placeholder="CEP" pattern="[\d]{5}-?[\d]{3}" data-tipo="cep" required>
                         <label class="input-label" for="cep">CEP</label>
                         <span class="input-mensagem-erro">Este campo não está válido</span>
                     </div>
                     <div class="input-container">
-                        <input name="logradouro" id="logradouro" class="input" type="text" placeholder="Logradouro">
+                        <input name="logradouro" id="logradouro" class="input" type="text" placeholder="Logradouro" data-tipo="logradouro" required>
                         <label class="input-label" for="logradouro">Logradouro</label>
                         <span class="input-mensagem-erro">Este campo não está válido</span>
                     </div>
                     <div class="input-container">
-                        <input name="cidade" id="cidade" class="input" type="text" placeholder="Cidade">
+                        <input name="cidade" id="cidade" class="input" type="text" placeholder="Cidade" data-tipo="cidade" required>
                         <label class="input-label" for="cidade">Cidade</label>
                         <span class="input-mensagem-erro">Este campo não está válido</span>
                     </div>
                     <div class="input-container">
-                        <input name="estado" id="estado" class="input" type="text" placeholder="Estado">
+                        <input name="estado" id="estado" class="input" type="text" placeholder="Estado" data-tipo="estado" required>
                         <label class="input-label" for="estado">Estado</label>
                         <span class="input-mensagem-erro">Este campo não está válido</span>
                     </div>

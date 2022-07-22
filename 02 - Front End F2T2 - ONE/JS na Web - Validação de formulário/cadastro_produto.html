@@ -31,12 +31,12 @@
             <h1 class="cartao__titulo">Cadastrar um produto</h1>
             <form action="./cadastro_produto_concluido.html" class="flex flex--coluna">
                 <div class="input-container">
-                    <input name="nome" id="nome" class="input" type="text" placeholder="Nome" required>
+                    <input name="nome" id="nome" class="input" type="text" placeholder="Nome" data-tipo="nome" required>
                     <label class="input-label" for="nome">Nome</label>
                     <span class="input-mensagem-erro">Este campo não está válido</span>
                 </div>
                 <div class="input-container cadastro__preco-container">
-                    <input name="preco" id="preco" class="input" type="text" placeholder="Preço">
+                    <input name="preco" id="preco" class="input" type="text" placeholder="Preço" data-tipo="preco" required>
                     <label class="input-label" for="preco">Preço</label>
                     <span class="input-mensagem-erro">Este campo não está válido</span>
                 </div>
@@ -49,5 +49,7 @@
             </form>
         </section>
     </main>
+    <script type="module" src="./js/app.js"></script>
+    <script src="https://github.com/codermarcos/simple-mask-money/releases/download/v3.0.0/simple-mask-money.js"></script>
 </body>
 </html>
