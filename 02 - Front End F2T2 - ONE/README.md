@@ -38,6 +38,10 @@
 <br>
 ✔️ <a href="https://cursos.alura.com.br/extra/alura-mais/template-string-c123">Template String</a> - Video extra
 <br>
+✔️ <a href="https://github.com/codermarcos/simple-mask-money">SimpleMoneyMask</a> - Mascara para validar inputs de saldo 
+<br>
+✔️ <a href="https://github.com/tc39/proposal-class-fields#private-fields">Private Fields</a> - Adicionar valores reservados 
+<br>
 <br>
 <h4>Projetos práticos</h4>
 ✔️ <a href="./Flexbox - Posicionando elementos na tela" style="color:#fff;">Flexbox - Posicionando elementos na tela</a>
@@ -60,5 +64,7 @@
 <br>
 ✔️ <a href="./JS na Web - Validação de formulário" style="color:#fff;">JS na Web - Validação de formulário</a>
 <br>
-<!-- <a href=""> </a>
-<br> -->
+✔️ <a href="./JavaScript - Explorando a linguagem" style="color:#fff;">JavaScript - Explorando a linguagem</a>
+<br>
+✔️ <a href="./JavaScript - Programando a Orientação a Objetos" style="color:#fff;">JavaScript - Programando a Orientação a Objetos</a>
+<br>
