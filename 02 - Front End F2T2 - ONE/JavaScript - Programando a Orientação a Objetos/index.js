@@ -1,34 +1,29 @@
 import { Cliente } from "./Cliente.js"
 import { ContaCorrente } from "./ContaCorrente.js"
 
-
 // Declarando clientes
-const cliente1 = new Cliente()
-cliente1.nome = 'Eric'
-cliente1.cpf = 88888811111
-
-const cliente2 = new Cliente()
-cliente2.nome = 'Alice'
-cliente2.cpf = 82883811141 
-
+const cliente1 = new Cliente('Eric', 88888811111)
+const cliente2 = new Cliente('Alice', 82883811141)
 
 // Declarando conta corrente
-const contaCorrenteEric = new ContaCorrente()
-contaCorrenteEric.agencia = 1001
-contaCorrenteEric.cliente = cliente1 
-
-const contaCorrenteAlice = new ContaCorrente()
-contaCorrenteAlice.agencia = 1001
-contaCorrenteAlice.cliente = cliente2 
+const conta1 = new ContaCorrente(1001, cliente1)
+const conta2 = new ContaCorrente(101, cliente2)
 
 // Operações
-contaCorrenteEric.depositar(300)
-contaCorrenteEric.depositar(500)
+conta1.depositar(300)
+conta1.depositar(500)
 
-contaCorrenteEric.sacar(50)
+conta1.sacar(50)
 
-contaCorrenteEric.tranferir(300, contaCorrenteAlice)
+conta1.tranferir(300, conta2)
 
 // App
-console.log(contaCorrenteEric)
-console.log(contaCorrenteAlice)
+console.log('------------------------- Contas -------------------------')
+console.log()
+console.log(conta1)
+console.log()
+console.log(conta2)
+console.log()
+console.log('__________________________________________________________')
+console.log()
+console.log(`Total de contas: ${ContaCorrente.numeroDeContas}`)
