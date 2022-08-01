@@ -28,6 +28,10 @@
 <br>
 ✔️ <a href="https://www.alura.com.br/artigos/como-utilizar-terminal-integrado-visual-studio-code">Começando com fetch no Javascript</a>
 <br>
+✔️ <a href="https://www.alura.com.br/artigos/preenchendo-formulario-html-automaticamente-com-ajax">Preenchendo formulário HTML automaticamente com AJAX</a>
+<br>
+✔️ <a href="https://www.alura.com.br/artigos/organize-seu-codigo-javascript-de-maneira-facil">Organize seu código</a>
+<br>
 <br>
 <h4>Outros</h4>
 ✔️ <a href="http://flexboxfroggy.com/">Flexbox Froggy</a> - ✔️ <a href="http://www.flexboxdefense.com/">Flexbox Defense</a> - Games para treinar o flexbox.
@@ -41,6 +45,10 @@
 ✔️ <a href="https://github.com/codermarcos/simple-mask-money">SimpleMoneyMask</a> - Mascara para validar inputs de saldo 
 <br>
 ✔️ <a href="https://github.com/tc39/proposal-class-fields#private-fields">Private Fields</a> - Adicionar valores reservados 
+<br>
+✔️ <a href="https://cursos.alura.com.br/extra/hipsterstech/o-reino-encantado-do-javascript-hipsters-38-a548">O Reino encantado do JavaScript</a> - Podcast
+<br>
+✔️ <a href="https://www.facebook.com/AluraCursosOnline/videos/vl.358719527812713/1302936079820966/?type=1">Alura +</a> - Live
 <br>
 <br>
 <h4>Projetos práticos</h4>
