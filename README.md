@@ -28,6 +28,10 @@
   <kbd>✔️
     <a href="./02 - Front End F2T2 - ONE">Front End</a>  
   </kbd>
+  <br>
+  <kbd>🕒
+    <a href="./03 - Java e Orientação a Objetos F2T2 - ONE">Java e Orientação a Objetos</a>  
+  </kbd>
   <em style="color:#2b2a33;"> - Em progresso</em>
   <br>
   <br>
@@ -40,7 +44,7 @@
       <li>✔️ Transformação Ágil </li>
       <li>✔️ Produtividade e Qualidade de Vida </li>
       <li>✔️ Liderança e Gestão de Equipes </li>
-      <li>🕒 Startups e Empreendedorismo </li>
+      <li>✔️ Startups e Empreendedorismo </li>
       <li>🕒 Gestão Estratégica</li>
     </ul>
   <br>
@@ -55,7 +59,7 @@
   <li>javaScript</li>
   <br>
   <h3><strong>Back end</strong></h3>
-  <li>Em breve</li>
+  <li>Java</li>
 </ul>
 <br>
 
@@ -63,23 +67,15 @@
 <br>
 
 <p id="challenge" align="center">
-<a href="https://github.com/p4kz/a-deco" target="_blank"> 
-<img src="https://i.imgur.com/LVI3goy.png" width="100px">
-</a>
-.
-<a href="https://github.com/p4kz/four-k" target="_blank"> 
-<img src="https://i.imgur.com/GKDsDgn.png" width="100px">
-</a>
-.
-<a href="https://github.com/p4kz/almost-secret-project" target="_blank"> 
-<img src="https://i.imgur.com/tRpO0ip.png" width="100px">
-</a>
-.
-<a href="https://github.com/p4kz/alur4-geek" target="_blank"> 
-<img src="https://i.imgur.com/kxxSuEx.png" width="100px">
-</a>
+  <a href="https://github.com/p4kz/a-deco" target="_blank"> 
+    <img src="https://i.imgur.com/LVI3goy.png" width="100px">
+  </a>
+  .
+  <a href="https://github.com/p4kz/four-k" target="_blank"> 
+    <img src="https://i.imgur.com/GKDsDgn.png" width="100px">
+  </a>
 </p>
-.
+
 <br>
 <footer>
 <hr></hr>
