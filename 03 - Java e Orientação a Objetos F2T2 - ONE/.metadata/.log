@@ -1,0 +1,184 @@
+
+!ENTRY org.eclipse.core.resources 4 2 2022-08-13 13:08:16.208
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems while saving variables and containers
+	at org.eclipse.jdt.internal.core.JavaModelManager.saveVariablesAndContainers(JavaModelManager.java:4418)
+	at org.eclipse.jdt.internal.core.JavaModelManager.savingTimed(JavaModelManager.java:4648)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saving(JavaModelManager.java:4634)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:394)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:210)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:213)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1171)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2421)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.lambda$1(IDEWorkbenchAdvisor.java:554)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: java.io.FileNotFoundException: /home/p4kz/documents/github/oracle-next-education/03 - Java e Orientação a Objetos F2T2 - ONE/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saveVariablesAndContainers(JavaModelManager.java:4413)
+	... 10 more
+!SUBENTRY 1 org.eclipse.jdt.core 4 4 2022-08-13 13:08:16.208
+!MESSAGE Problems while saving variables and containers
+!STACK 0
+java.io.FileNotFoundException: /home/p4kz/documents/github/oracle-next-education/03 - Java e Orientação a Objetos F2T2 - ONE/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saveVariablesAndContainers(JavaModelManager.java:4413)
+	at org.eclipse.jdt.internal.core.JavaModelManager.savingTimed(JavaModelManager.java:4648)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saving(JavaModelManager.java:4634)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:394)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:210)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:213)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1171)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2421)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.lambda$1(IDEWorkbenchAdvisor.java:554)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.jdt.core 4 4 2022-08-13 13:08:16.208
+!MESSAGE Problems while saving variables and containers
+!STACK 0
+java.io.FileNotFoundException: /home/p4kz/documents/github/oracle-next-education/03 - Java e Orientação a Objetos F2T2 - ONE/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saveVariablesAndContainers(JavaModelManager.java:4413)
+	at org.eclipse.jdt.internal.core.JavaModelManager.savingTimed(JavaModelManager.java:4648)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saving(JavaModelManager.java:4634)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:394)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:210)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:213)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1171)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2421)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.lambda$1(IDEWorkbenchAdvisor.java:554)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-08-13 13:08:16.233
+!MESSAGE No such file or directory
+!STACK 0
+java.io.IOException: No such file or directory
+	at java.base/java.io.UnixFileSystem.createFileExclusively(Native Method)
+	at java.base/java.io.File.createNewFile(File.java:1043)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.writeInstallInfo(LaunchingPlugin.java:1111)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin$1.saving(LaunchingPlugin.java:576)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:394)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:210)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:213)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1171)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2421)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.lambda$1(IDEWorkbenchAdvisor.java:554)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2022-08-13 13:08:17.626
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 4 1 2022-08-13 13:08:17.626
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 4 568 2022-08-13 13:08:17.626
+!MESSAGE Could not write workspace metadata '/home/p4kz/documents/github/oracle-next-education/03 - Java e Orientação a Objetos F2T2 - ONE/.metadata/.plugins/org.eclipse.core.resources/.root/3.tree'.
+!STACK 0
+java.io.FileNotFoundException: /home/p4kz/documents/github/oracle-next-education/03 - Java e Orientação a Objetos F2T2 - ONE/.metadata/.plugins/org.eclipse.core.resources/.root/3.tree (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:55)
+	at org.eclipse.core.internal.resources.SaveManager.saveTree(SaveManager.java:1393)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1175)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2421)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.lambda$1(IDEWorkbenchAdvisor.java:554)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.eclemma.core 4 0 2022-08-13 13:08:17.791
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Exception in org.eclipse.eclemma.internal.core.EclEmmaCorePlugin.stop() of bundle org.eclipse.eclemma.core.
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:895)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1046)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:376)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:660)
+	at org.eclipse.osgi.container.Module.stop(Module.java:521)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1888)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1763)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:275)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:208)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:660)
+	at org.eclipse.osgi.container.Module.stop(Module.java:521)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:207)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:226)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.NullPointerException: Cannot read the array length because "files" is null
+	at org.eclipse.eclemma.internal.core.ExecutionDataFiles.deleteTemporaryFiles(ExecutionDataFiles.java:49)
+	at org.eclipse.eclemma.internal.core.EclEmmaCorePlugin.stop(EclEmmaCorePlugin.java:111)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:875)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:867)
+	... 13 more
+Root exception:
+java.lang.NullPointerException: Cannot read the array length because "files" is null
+	at org.eclipse.eclemma.internal.core.ExecutionDataFiles.deleteTemporaryFiles(ExecutionDataFiles.java:49)
+	at org.eclipse.eclemma.internal.core.EclEmmaCorePlugin.stop(EclEmmaCorePlugin.java:111)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:875)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:867)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1046)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:376)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:660)
+	at org.eclipse.osgi.container.Module.stop(Module.java:521)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1888)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1763)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:275)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:208)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:660)
+	at org.eclipse.osgi.container.Module.stop(Module.java:521)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:207)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:226)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY org.eclipse.jdt.core 4 4 2022-08-13 13:08:17.798
+!MESSAGE Failed to save JDT index: Index for /sintaxe-variaveis-e-fluxo
+!STACK 0
+java.io.FileNotFoundException: /home/p4kz/documents/github/oracle-next-education/03 - Java e Orientação a Objetos F2T2 - ONE/.metadata/.plugins/org.eclipse.jdt.core/1123767639.index (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at org.eclipse.jdt.internal.core.index.FileIndexLocation.getInputStream(FileIndexLocation.java:81)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.readAllDocumentNames(DiskIndex.java:630)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.mergeWith(DiskIndex.java:532)
+	at org.eclipse.jdt.internal.core.index.Index.save(Index.java:230)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveIndex(IndexManager.java:1150)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveIndexes(IndexManager.java:1209)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.notifyIdle(IndexManager.java:826)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:425)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-08-13 13:08:17.798
+!MESSAGE Failed to update qualified index.
+!STACK 0
+java.io.FileNotFoundException: /home/p4kz/documents/github/oracle-next-education/03 - Java e Orientação a Objetos F2T2 - ONE/.metadata/.plugins/org.eclipse.jdt.core/1865797976.index (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at org.eclipse.jdt.internal.core.index.FileIndexLocation.getInputStream(FileIndexLocation.java:81)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.readAllDocumentNames(DiskIndex.java:630)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.mergeWith(DiskIndex.java:532)
+	at org.eclipse.jdt.internal.core.index.Index.save(Index.java:230)
+	at org.eclipse.jdt.internal.core.index.MetaIndex.save(MetaIndex.java:100)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveMetaIndex(IndexManager.java:1256)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveIndexes(IndexManager.java:1232)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.notifyIdle(IndexManager.java:826)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:425)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-08-13 13:08:18.302
+!MESSAGE The workspace will exit with unsaved changes in this session.
