@@ -1,0 +1,119 @@
+/* global changes */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: boder-box;
+
+  --bg: #fdfdfd;
+  --font: #121214;
+
+  --mono: 'DM Mono', monospace;
+  --roboto: 'Roboto', sans-serif;
+}
+
+body {
+  background: var(--bg);
+  font-family: var(--mono);
+  height: calc(100vh - 80px);
+  font-size: 65.2%;
+}
+
+.container {
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
+}
+
+.wrap {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* app changes */
+
+.app {
+  height: 100%;
+  min-height: 100%;
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  border: 1px solid var(--font);
+  border-radius: 1.5rem;
+  padding: 1rem;
+  max-width: 400px;
+}
+
+.box__title {
+  text-align: center;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.box-main {
+  font-size: 1rem;
+}
+
+.box-main__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.box-main__fix {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.box-main__input {
+  -moz-appearance: textfield;
+  border: 1px solid var(--font);
+  border-radius: 1rem;
+  padding: .5rem;
+  width: 40%;
+  margin-left: .5rem;
+}
+
+.box-main__result {
+  border: none;
+  overflow: auto;
+  outline: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  resize: none;
+  margin: 1rem 0;
+  height: 50px;
+  padding: .5rem;
+}
+
+.box-main__button {
+  border: none;
+  background: #121214;
+  border-radius: .6rem;
+  color: var(--bg);
+  height: 50px;
+  transition: 500ms;
+}
+
+.box-main__button:hover {
+  background: #121214e8;
+}
+
+.box-main__button:active {
+  background: transparent;
+  border: 1px solid var(--font);
+  color: var(--font);
+}
+
+@media screen and (max-width:451px) {
+  .box-main__input {
+    width: 100%;
+  }
+}
