@@ -54,14 +54,14 @@ body {
   margin-bottom: 1rem;
 }
 
-.box__form {
+.box-main__form {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin: 0 auto;
 }
 
-.box__input {
+.box-main__input {
   border: none;
   border: 1px solid var(--font);
   -moz-appearance: textfield;
@@ -71,11 +71,11 @@ body {
   margin-bottom: 1rem;
 }
 
-.box__input:nth-child(2){
+.box-main__input:nth-child(2){
   margin-bottom: 0;
 }
 
-.box__button {
+.box-main__button {
   border: none;
   background: #121214;
   border-radius: .6rem;
@@ -84,22 +84,22 @@ body {
   transition: 500ms;
 }
 
-.box__button:hover {
+.box-main__button:hover {
   background: #121214e8;
 }
 
-.box__button:active {
+.box-main__button:active {
   background: transparent;
   border: 1px solid var(--font);
   color: var(--font);
 }
 
-.box__result {
+.box-main__result {
   padding: .5rem;
   min-height: 20px;
 }
 
-.box__data--result {
+.box-main__data--result {
   padding-left: 1rem;
   background: #9aa586;
   font-size: 1rem;
