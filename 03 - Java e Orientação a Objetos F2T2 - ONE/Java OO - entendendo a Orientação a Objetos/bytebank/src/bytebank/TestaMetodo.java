@@ -5,6 +5,7 @@ public class TestaMetodo {
 	public static void main(String[] args) {
 		Conta contaEric = new Conta();
 		contaEric.saldo = 100;
+		contaEric.titular = "Eric Mendonça";
 		contaEric.deposita(50);
 		contaEric.saca(20);
 		
@@ -15,6 +16,7 @@ public class TestaMetodo {
 		
 		System.out.println(contaEric.saldo);
 		System.out.println(contaMarco.saldo);
+		
 		
 		if(sucessoTransferencia) {
 			System.out.println("Tranferencia feita com sucesso");
