@@ -6,6 +6,15 @@ class Conta {
 	private int agencia;
 	private int numero;
 	private Cliente titular;
+	private static int total = 0;
+	
+	public Conta(int agencia, int numero) {
+		Conta.total++;
+		this.agencia = agencia;
+		this.numero = numero;
+		
+		System.out.println("Agencia: " + this.agencia + ", Numero: " + this.numero);	
+	}
 	
 	public void deposita(double valor) {
 		this.saldo += valor;
@@ -39,6 +48,10 @@ class Conta {
 	}
 	
 	public void setNumero(int numero) {
+		if (numero <= 0) {
+			System.out.println("Não pode colocar valores negativos");
+			return;
+		}
 		this.numero = numero;
 	}
 	
@@ -47,6 +60,10 @@ class Conta {
 	} 
 	
 	public void setAgencia(int agencia) {
+		if (agencia <= 0) {
+			System.out.println("Não pode colocar valores negativos");
+			return;
+		}
 		this.agencia = agencia;
 	}
 	
@@ -56,5 +73,9 @@ class Conta {
 	
 	public void setTitular(Cliente titular) {
 		this.titular = titular;
+	}
+	
+	public static int getTotal() {
+		return Conta.total;
 	}
 }
