@@ -1,0 +1,69 @@
+/* global changes */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: boder-box;
+
+  --bg: #fdfdfd;
+  --font: #121214;
+
+  --mono: 'DM Mono', monospace;
+  --roboto: 'Roboto', sans-serif;
+}
+
+body {
+  background: var(--bg);
+  font-family: var(--mono);
+  height: calc(100vh - 80px);
+  font-size: 65.2%;
+}
+
+.container {
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
+}
+
+.wrap {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* app changes */
+
+.app {
+  height: 100%;
+  min-height: 100%;
+  min-width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  border: 1px solid var(--font);
+  min-width: 300px;
+  min-height: 400px;
+  max-width: 500px;
+  border-radius: 1.5rem;
+  padding: 1rem;
+  background: rgb(28,36,0);
+  background: linear-gradient(90deg, rgba(28,36,0,1) 0%, rgba(5,59,69,1) 8%, rgba(86,57,7,1) 40%, rgba(121,113,9,1) 61%, rgba(255,169,0,1) 89%); 
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+.box__title {
+  text-align: center;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.box-main__text {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  text-shadow: 1px 1px 0px #fff;
+}
