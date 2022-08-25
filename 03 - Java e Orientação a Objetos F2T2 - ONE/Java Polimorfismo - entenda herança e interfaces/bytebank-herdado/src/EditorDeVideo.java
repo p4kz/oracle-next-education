@@ -1,6 +1,9 @@
 
 public class EditorDeVideo extends Funcionario {
-	public double getbonificacao() {
-		return super.getBonificacao() + 100;
+
+	@Override
+	public double getBonificacao() {
+		// TODO Auto-generated method stub
+		return 150;
 	}
 }
