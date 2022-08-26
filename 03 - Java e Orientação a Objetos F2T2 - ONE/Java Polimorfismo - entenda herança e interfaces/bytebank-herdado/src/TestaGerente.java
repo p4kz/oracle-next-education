@@ -15,8 +15,8 @@ public class TestaGerente {
 			+ " Salario base: " + 
 			gerente.getSalario() 
 			+ " Esta logado: " + 
-			gerente.autentica(2222) 
-			+ " Bonus: " + 
+			gerente.autentica(2222)+ 
+			 " Bonus: " + 
 			gerente.getBonificacao()
 		);
 
