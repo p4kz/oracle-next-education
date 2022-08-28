@@ -14,6 +14,8 @@
 <br>
 ✔️ <a href="./Java Polimorfismo - entenda herança e interfaces" >Java Polimorfismo - entenda herança e interfaces</a>
 <br>
+✔️ <a href="./Java Exceções - aprenda a criar lançar e controlar exceções" >Java Exceções - aprenda a criar lançar e controlar exceções</a>
+<br>
 <br>
 <h4>Desafios do modulo</h4>
 </a>
