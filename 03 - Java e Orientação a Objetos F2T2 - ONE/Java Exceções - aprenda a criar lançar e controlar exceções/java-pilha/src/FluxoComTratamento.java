@@ -23,7 +23,12 @@ public class FluxoComTratamento {
             System.out.println(i);	
             
             Conta c = null;
-            c.deposita();
+            try {
+				c.deposita();
+			} catch (MinhaExcecao e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
         }
         System.out.println("Fim do metodo2");
     }
