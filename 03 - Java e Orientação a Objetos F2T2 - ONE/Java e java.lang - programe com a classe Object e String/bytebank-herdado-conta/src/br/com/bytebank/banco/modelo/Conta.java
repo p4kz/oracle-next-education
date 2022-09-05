@@ -1,5 +1,12 @@
 package br.com.bytebank.banco.modelo;
 
+/**
+ * Classe reperensata a muldura de uma conta 
+ * 
+ * @author Eric Mendonça
+ *
+ */
+
 public abstract class Conta {
 
     protected double saldo;
