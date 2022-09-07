@@ -39,6 +39,11 @@ public abstract class Conta {
         destino.deposita(valor);
 
     }
+    
+	@Override
+	public String toString() {
+		return "Numero: " + this.numero + " Agencia: " + this.agencia;
+	}
 
     public double getSaldo(){
         return this.saldo;

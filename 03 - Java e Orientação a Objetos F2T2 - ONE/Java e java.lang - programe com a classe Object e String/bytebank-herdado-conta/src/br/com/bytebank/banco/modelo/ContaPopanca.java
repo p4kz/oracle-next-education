@@ -10,4 +10,9 @@ public class ContaPopanca extends Conta{
 	public void deposita(double valor) {
 		super.saldo = super.saldo + valor;		
 	}
+	
+	@Override
+	public String toString() {
+		return "Conta Popança, " + super.toString();
+	}
 }
