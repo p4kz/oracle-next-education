@@ -16,6 +16,8 @@
 <br>
 ✔️ <a href="./Java Exceções - aprenda a criar lançar e controlar exceções" >Java Exceções - aprenda a criar lançar e controlar exceções</a>
 <br>
+✔️ <a href="./Java e java.util Coleções - Wrappers e Lambda expressions" >Java e java.util Coleções - Wrappers e Lambda expressions</a>
+<br>
 <br>
 <h4>Desafios do modulo</h4>
 </a>
