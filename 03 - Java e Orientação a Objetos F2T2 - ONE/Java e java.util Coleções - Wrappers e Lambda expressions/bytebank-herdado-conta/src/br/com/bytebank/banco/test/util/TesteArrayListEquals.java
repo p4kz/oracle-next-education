@@ -1,6 +1,8 @@
 package br.com.bytebank.banco.test.util;
 
 import java.util.ArrayList;
+import java.util.List;
+import java.util.Vector;
 
 import br.com.bytebank.banco.modelo.Conta;
 import br.com.bytebank.banco.modelo.ContaCorrente;
@@ -9,7 +11,7 @@ import br.com.bytebank.banco.modelo.GuardadorDeContas;
 public class TesteArrayListEquals {
 	
 	public static void main(String[] args) {
-		ArrayList<Conta> lista = new ArrayList<Conta>();
+		List<Conta> lista = new ArrayList<Conta>();
 		GuardadorDeContas gdc = new GuardadorDeContas();
 		
 		Conta cc1 = new ContaCorrente(11,11);
