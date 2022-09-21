@@ -18,6 +18,8 @@
 <br>
 ✔️ <a href="./Java e java.util Coleções - Wrappers e Lambda expressions" >Java e java.util Coleções - Wrappers e Lambda expressions</a>
 <br>
+✔️ <a href="./Java e java.io - Streams, Reader e Writers" >Java e java.io - Streams, Reader e Writers</a>
+<br>
 <br>
 <h4>Desafios do modulo</h4>
 </a>
