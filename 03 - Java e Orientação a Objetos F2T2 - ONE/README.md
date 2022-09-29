@@ -20,6 +20,10 @@
 <br>
 ✔️ <a href="./Java e java.io - Streams, Reader e Writers" >Java e java.io - Streams, Reader e Writers</a>
 <br>
+✔️ <a href="./Java Collections - Dominando Listas, Sets e Mapas" >Java Collections - Dominando Listas, Sets e Mapas</a>
+<br>
 <br>
 <h4>Desafios do modulo</h4>
+<a href="https://github.com/p4kz/money-converter" target="_blank"> 
+<img src="https://i.imgur.com/Iq1eeMy.png" width="100px">
 </a>
