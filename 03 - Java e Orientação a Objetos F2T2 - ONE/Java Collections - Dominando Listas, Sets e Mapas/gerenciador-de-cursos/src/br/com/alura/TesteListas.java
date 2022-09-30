@@ -15,6 +15,7 @@ public class TesteListas {
 		aulas.add(aula2);
 		aulas.add(aula3);
 		aulas.add("Aumentado nosso conhecimento");
+		
 		System.out.println(aulas);
 		
 		aulas.remove(0);
