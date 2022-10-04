@@ -29,5 +29,19 @@ public class Curso {
     public void adiciona(Aula aula) {
         this.aulas.add(aula);
     }
+    
+    public int getTempoTotal() {
+        return this.aulas.stream().mapToInt(Aula::getTempo).sum();
+    }
+    
+    @Override
+    public String toString() {
+        return "[Aula: " + this.nome + ", " + this.getTempoTotal() + " minutos]";
+    }
+
+    
+    public int compareTo(Aula outraAula) {
+        return this.nome.compareTo(outraAula.getTitulo());
+    }
 	
 }
