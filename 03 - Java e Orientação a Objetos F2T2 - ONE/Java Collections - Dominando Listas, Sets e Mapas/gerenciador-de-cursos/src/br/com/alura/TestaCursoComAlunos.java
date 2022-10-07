@@ -21,7 +21,12 @@ public class TestaCursoComAlunos {
         javaColecoes.getAlunos().forEach( 
         	a -> System.out.println(a)
         );
-
+        
+        System.out.println(javaColecoes.estaMatriculado(a1));
+        
+        String nome = "eric mm";
+        
+        System.out.println(javaColecoes.estaMatriculado());
 	}
 
 }
