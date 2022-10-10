@@ -26,7 +26,7 @@ public class TestaCursoComAlunos {
         
         String nome = "eric mm";
         
-        System.out.println(javaColecoes.estaMatriculado());
+        System.out.println(javaColecoes.estaMatriculado(a3));
 	}
 
 }
