@@ -22,6 +22,8 @@
 <br>
 ✔️ <a href="./Java Collections - Dominando Listas, Sets e Mapas" >Java Collections - Dominando Listas, Sets e Mapas</a>
 <br>
+✔️ <a href="./Java 8 - conheça as novidades dessa versão" >Java 8 - conheça as novidades dessa versão</a>
+<br>
 <br>
 <h4>Desafios do modulo</h4>
 <a href="https://github.com/p4kz/money-converter" target="_blank"> 
