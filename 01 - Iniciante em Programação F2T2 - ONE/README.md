@@ -1,5 +1,4 @@
 <h1>Iniciante em Programação F2T2 - ONE</h1>
-<br>
 <h4>Artigos</h4>
 ✔️ <a href="https://www.alura.com.br/artigos/5-duvidas-de-quem-quer-iniciar-na-carreira-de-programacao">5 dúvidas de quem quer iniciar na carreira de programação</a>
 <br>
