@@ -104,6 +104,12 @@
   </ul>
   <br>
   <ul>
+    <h3>SQL com MySQL Server da Oracle - ONE</h3>
+    <em>Projetos práticos</em>
+    <li>💻 <a href="./04 - AlumniONE/SQL com MySQL - manipule e consulte dados">SQL com MySQL - manipule e consulte dados</a></li>
+  </ul>
+  <br>
+  <ul>
     <h3>Soft Skills</h3>
     <li>📙 Business Agility - ONE
     <br>
