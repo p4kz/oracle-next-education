@@ -193,6 +193,7 @@
   <li>CSS</li>
   <li>javaScript</li>
   <li>Java</li>
+  <li>MySQL</li>
 </ul>
 <br>
 
