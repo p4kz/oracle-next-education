@@ -39,4 +39,29 @@
       PRIMEIRA_COMPRA BIT(1)
     )
   ````
-    
+- How to create table data:
+
+  ````
+    USE SUCOS;
+    ALTER TABLE TBCLIENTE ADD PRIMARY KEY (CPF);
+
+    ALTER TABLE TBCLIENTE ADD COLUMN (DATA_NASCIMENTO DATE);
+
+    INSERT INTO TBCLIENTE (
+    CPF,
+    NOME,
+    ENDERECO1,
+    ENDERECO2,
+    BAIRRO,
+    CIDADE,
+    ESTADO,
+    CEP,
+    IDADE,
+    SEXO,
+    LIMITE_CREDITO,
+    VOLUME_COMPRA,
+    PRIMEIRA_COMPRA,
+    DATA_NASCIMENTO
+    ) VALUES
+    ('11122233344', 'Eric', '12 De Julho, 666', 'blabla, 233', 'Boa vista', 'Porto Alegre', 'RS', '12345678', 25, 'M', 1200.00, 2000, 0, '1998-10-03');
+  ````
