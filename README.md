@@ -107,6 +107,7 @@
     <h3>SQL com MySQL Server da Oracle - ONE</h3>
     <em>Projetos práticos</em>
     <li>💻 <a href="./04 - AlumniONE/SQL com MySQL - manipule e consulte dados">SQL com MySQL - manipule e consulte dados</a></li>
+    <li>💻 <a href="./04 - AlumniONE/Consultas SQL - avançando no SQL com MySQL">Consultas SQL - avançando no SQL com MySQL</a></li>
   </ul>
   <br>
   <ul>
