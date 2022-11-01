@@ -13,3 +13,9 @@
 - Como utilizar o comando HAVING para aplicar um filtro usando os campos numéricos agrupados como condição.
 - Como limitar a saída das consultas.
 - Como usar o CASE para classificar um determinado campo por um critério.
+- Como conectar duas ou mais tabelas através de JOINs.
+- Os tipos de JOINs existentes e quais são suportados pelo MYSQL.
+- Os comandos UNION e UNION ALL, para juntar duas ou mais seleções desde que tenham os mesmos campos selecionados.
+- Usar uma consulta como critério de filtro de outra consulta.
+- Como usar uma consulta dentro de outra consulta.
+- Criar e usar visões (Views).
