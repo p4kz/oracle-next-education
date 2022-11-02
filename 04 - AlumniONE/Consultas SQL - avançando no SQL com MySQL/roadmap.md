@@ -19,3 +19,8 @@
 - Usar uma consulta como critério de filtro de outra consulta.
 - Como usar uma consulta dentro de outra consulta.
 - Criar e usar visões (Views).
+- Algumas funções de texto.
+- Funções matemáticas.
+- Foi mostrado funções de datas.
+- Abordamos funções de conversão.
+- Colocarmos em prática o nosso conhecimento montando dois relatórios conforme especificado pela empresa de suco de frutas.
