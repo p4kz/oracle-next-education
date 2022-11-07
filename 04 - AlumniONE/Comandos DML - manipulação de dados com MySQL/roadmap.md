@@ -9,3 +9,7 @@
 - Podemos criar as tabelas por um assistente. Foi mostrado isso nesta aula.
 - Vimos como criar os relacionamentos entre as tabelas.
 - Vimos que o nome da tabela também pode ser modificada após sua criação.
+- Aprendemos a incluir dados em uma tabela, através de comando.
+- Vimos a inclusão de vários registros em um único comando.
+- Foi mostrado como incluir dados na tabela através de um assistente.
+- Mostramos como incluir dados usando um arquivo externo.
