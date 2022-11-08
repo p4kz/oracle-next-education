@@ -13,3 +13,6 @@
 - Vimos a inclusão de vários registros em um único comando.
 - Foi mostrado como incluir dados na tabela através de um assistente.
 - Mostramos como incluir dados usando um arquivo externo.
+- Alterar e excluir dados de uma tabela, através de comando ou em lotes.
+- Vimos que podemos alterar ou excluir todos os dados de uma tabela.
+- O que é uma transação e como podemos desfazer modificações efetuadas anteriormente na base de dados.
