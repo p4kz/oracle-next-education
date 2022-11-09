@@ -16,3 +16,6 @@
 - Alterar e excluir dados de uma tabela, através de comando ou em lotes.
 - Vimos que podemos alterar ou excluir todos os dados de uma tabela.
 - O que é uma transação e como podemos desfazer modificações efetuadas anteriormente na base de dados.
+- Vimos como funciona campos de auto incremento.
+- Aprendemos a determinar valores padrões para os campos.
+- Foi mostrado como trabalhar com TRIGGERs para executar comandos no momento da inclusão, alteração e exclusão de registros.
