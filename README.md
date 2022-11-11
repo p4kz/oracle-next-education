@@ -109,6 +109,7 @@
     <li>💻 <a href="./04 - AlumniONE/SQL com MySQL - manipule e consulte dados">SQL com MySQL - manipule e consulte dados</a></li>
     <li>💻 <a href="./04 - AlumniONE/Consultas SQL - avançando no SQL com MySQL">Consultas SQL - avançando no SQL com MySQL</a></li>
     <li>💻 <a href="./04 - AlumniONE/Comandos DML - manipulação de dados com MySQL">Comandos DML - manipulação de dados com MySQL</a></li>
+    <li>💻 <a href="./04 - AlumniONE/Procedures SQL - executando código no MySQL">Procedures SQL - executando código no MySQL</a></li>
   </ul>
   <br>
   <ul>
