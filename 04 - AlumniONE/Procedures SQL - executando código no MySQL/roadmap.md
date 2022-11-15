@@ -7,3 +7,7 @@
 - A usar funções do MYSQL e comentários na SP.
 - Como alterar uma SP já existente.
 - Como excluir uma SP.
+- Como manipular comandos SQL dentro da SP.
+- Como passar parâmetros para uma SP.
+- Como tratamos erros.
+- A atribuição de variáveis através de um comando SELECT.
