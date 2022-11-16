@@ -11,3 +11,9 @@
 - Como passar parâmetros para uma SP.
 - Como tratamos erros.
 - A atribuição de variáveis através de um comando SELECT.
+- O control de fluxo IF-THEN-ELSE.
+- Uma variação do controle anterior chamado IF-THEN-ELSEIF.
+- A estrutura CASE.
+- Como tratar erros no CASE quando nem todas as opções são contempladas.
+- o CASE condicional, semelhante ao usado nos comandos SQL.
+- O uso de Loops para repetir um conjunto de comandos até uma condição ser satisfeita.
