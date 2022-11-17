@@ -17,3 +17,7 @@
 - Como tratar erros no CASE quando nem todas as opções são contempladas.
 - o CASE condicional, semelhante ao usado nos comandos SQL.
 - O uso de Loops para repetir um conjunto de comandos até uma condição ser satisfeita.
+- Conhecemos a estrutura de Cursor onde podemos atribuir valores resultados de um SELECT com múltiplas linhas.
+- Vimos que podemos atribuir ao Cursos mais de uma coluna.
+- Aprendemos como usar o Cursos em conjunto com um Looping.
+- Foi mostrado como criamos e usamos uma função.
