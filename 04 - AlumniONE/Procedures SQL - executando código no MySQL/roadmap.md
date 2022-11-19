@@ -21,3 +21,5 @@
 - Vimos que podemos atribuir ao Cursos mais de uma coluna.
 - Aprendemos como usar o Cursos em conjunto com um Looping.
 - Foi mostrado como criamos e usamos uma função.
+- Usamos nosso conhecimento prático para criação de uma SP que cria uma venda aleatória.
+- Vimos como a SP pode melhorar o gerenciamento de TRIGGERs.
