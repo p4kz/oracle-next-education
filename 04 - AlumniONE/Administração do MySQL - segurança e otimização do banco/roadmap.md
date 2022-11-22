@@ -3,3 +3,7 @@
 - A instalar o MySQL e recuperar o ambiente que será utilizado neste treinamento.
 - Como criar conexões e distribuí-las pelos clientes.
 - Como paramos e iniciamos o serviço do MySQL.
+- A importância das variáveis de ambiente.
+- Como modificar a variável de ambiente pelo Workbench.
+- O que são os mecanismos de armazenamento e os tipos principais, com suas características.
+- Como determinar o mecanismo de armazenamento no momento da criação das tabelas.
