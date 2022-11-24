@@ -11,3 +11,9 @@
 - Como realizar o backup através do mysqldump.
 - A fazer o backup copiando toda a estrutura de dados para outro diretório.
 - A recuperar o backup usando o a linha de comando do MySQL ou copiando de volta a estrutura de arquivos.
+- O que é um índice
+- Como funciona os algoritmos de Hash e BTree
+- Como analisar um plano de execução
+- Como o índice melhora o plano de execução
+- Que as chaves primárias e estrangeiras criam índices e ajudam a melhorar o plano de execução
+- A usar a ferramenta mysqlslap
