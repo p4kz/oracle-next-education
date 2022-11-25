@@ -11,9 +11,17 @@
 - Como realizar o backup através do mysqldump.
 - A fazer o backup copiando toda a estrutura de dados para outro diretório.
 - A recuperar o backup usando o a linha de comando do MySQL ou copiando de volta a estrutura de arquivos.
-- O que é um índice
-- Como funciona os algoritmos de Hash e BTree
-- Como analisar um plano de execução
-- Como o índice melhora o plano de execução
-- Que as chaves primárias e estrangeiras criam índices e ajudam a melhorar o plano de execução
-- A usar a ferramenta mysqlslap
+- O que é um índice.
+- Como funciona os algoritmos de Hash e BTree.
+- Como analisar um plano de execução.
+- Como o índice melhora o plano de execução.
+- Que as chaves primárias e estrangeiras criam índices e ajudam a melhorar o plano de execução.
+- A usar a ferramenta mysqlslap.
+- A criar usuários administradores e a remover o usuário root.
+- Como criar um usuário com privilégios para acesso normal (sem ser administrador).
+- Como criar um usuário que só pode ler os dados.
+- Como criar um usuário que somente executa backups.
+- A fazer a criação dos usuários pela caixa de diálogo do Workbench e via SQL.
+- Como limitar o acesso do usuário pelo IP.
+- A limitar o acesso por banco e por tabela.
+- Como revogarr os privilégios.
