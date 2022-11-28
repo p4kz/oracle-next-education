@@ -106,11 +106,17 @@
   <ul>
     <h3>SQL com MySQL Server da Oracle - ONE</h3>
     <em>Projetos práticos</em>
-    <li>💻 <a href="./04 - AlumniONE/SQL com MySQL - manipule e consulte dados">SQL com MySQL - manipule e consulte dados</a></li>
-    <li>💻 <a href="./04 - AlumniONE/Consultas SQL - avançando no SQL com MySQL">Consultas SQL - avançando no SQL com MySQL</a></li>
-    <li>💻 <a href="./04 - AlumniONE/Comandos DML - manipulação de dados com MySQL">Comandos DML - manipulação de dados com MySQL</a></li>
-    <li>💻 <a href="./04 - AlumniONE/Procedures SQL - executando código no MySQL">Procedures SQL - executando código no MySQL</a></li>
-    <li>💻 <a href="./04 - AlumniONE/Administração do MySQL - segurança e otimização do banco">Administração do MySQL - segurança e otimização do banco</a></li>
+    <li>💻 <a href="./04 - AlumniONE/SQL com MySQL Server da Oracle - ONE/SQL com MySQL - manipule e consulte dados">SQL com MySQL - manipule e consulte dados</a></li>
+    <li>💻 <a href="./04 - AlumniONE/SQL com MySQL Server da Oracle - ONE/Consultas SQL - avançando no SQL com MySQL">Consultas SQL - avançando no SQL com MySQL</a></li>
+    <li>💻 <a href="./04 - AlumniONE/SQL com MySQL Server da Oracle - ONE/Comandos DML - manipulação de dados com MySQL">Comandos DML - manipulação de dados com MySQL</a></li>
+    <li>💻 <a href="./04 - AlumniONE/SQL com MySQL Server da Oracle - ONE/Procedures SQL - executando código no MySQL">Procedures SQL - executando código no MySQL</a></li>
+    <li>💻 <a href="./04 - AlumniONE/SQL com MySQL Server da Oracle - ONE/Administração do MySQL - segurança e otimização do banco">Administração do MySQL - segurança e otimização do banco</a></li>
+  </ul>
+  <br>
+    <ul>
+    <h3>Python, Data Science no OCI e Oracle Analytics - ONE</h3>
+    <em>Projetos práticos</em>
+    <li>💻 <a href="./04 - AlumniONE/Python, Data Science no OCI e Oracle Analytics - ONE/Python para Data Science">Python para Data Science</a></li>
   </ul>
   <br>
   <ul>
