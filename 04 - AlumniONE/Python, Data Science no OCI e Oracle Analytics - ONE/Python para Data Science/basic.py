@@ -19,17 +19,28 @@
 # verifica_idade(idade)
 
 #array
-idades = [15, 16, 17, 18]
+# idades = [15, 16, 17, 18]
 
 ##loop
-def verifica_se_pode_dirigir(idade):
-  if idade >=18:
-    print(f'{idade} anos de idade, tem permissão para dirigir')
-  else: 
-    print(f'{idade} anos de idade, não tem permissão para dirigir')
+# def verifica_se_pode_dirigir(idade):
+#   if idade >=18:
+#     print(f'{idade} anos de idade, tem permissão para dirigir')
+#   else: 
+#     print(f'{idade} anos de idade, não tem permissão para dirigir')
 
-for idade in idades:
-  verifica_se_pode_dirigir(idade)
+# for idade in idades:
+#   verifica_se_pode_dirigir(idade)
+
+# lista = ['Eric', 28, True, '22']
+
+# for elemento in lista:
+#   print(f'o elemento {elemento} é do tipo', type(elemento))
+
+##import 
+
+# from random import randrange
+
+
   
 
  

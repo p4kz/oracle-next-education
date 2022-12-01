@@ -9,4 +9,7 @@
 - Criamos nossa primeira lista no Python;
 - Aprendemos a utilizar a estrutura de repetição for;
 - Descobrimos o tipo booleano.
+- Vimos que é possível armazenar elementos de diferentes tipos em uma lista;
+- Aprendemos como importar o método randrange para gerar números inteiros aleatórios entre 0 e 10.
+
 
