@@ -40,6 +40,14 @@
 
 # from random import randrange
 
+import matplotlib.pylot as plt
+x = list(range(1, 9))
+y = notas_matematica
+plt.plot(x, y)
+plt.title('Notas de matematica')
+plt.xlabel('Provas')
+plt.ylabel('Notas')
+plt.show()
 
   
 
