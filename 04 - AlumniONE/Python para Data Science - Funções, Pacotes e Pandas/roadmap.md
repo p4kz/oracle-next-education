@@ -4,3 +4,9 @@
 - A criar DataFrames com o pacote pandas, a partir de dados externos
 - Como obter informações básicas de um DataFrame
 - Como obter estatísticas descritivas dos dados de um DataFrame
+- O que são as tuplas
+- Formas de criação de uma tupla
+- Técnicas de seleção de itens e fatiamento com tuplas do Python
+- Formas de iterar por uma tupla
+- A técnica conhecida como desempacotamento de tuplas
+- A utilizar a built-in function zip()
