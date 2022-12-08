@@ -10,3 +10,8 @@
 - Formas de iterar por uma tupla
 - A técnica conhecida como desempacotamento de tuplas
 - A utilizar a built-in function zip()
+- Estruturas de dados, que representam um tipo de mapeamento, conhecidas como dicionário, na linguagem Python
+- Formas de criação de dicionários em Python
+- Operações básicas com dicionários (pertinência, acesso, atribuição, etc)
+- A utilizar os métodos mais importantes de dicionários (update(), pop(), clear(), etc)
+- Técnicas de iteração por dicionários
