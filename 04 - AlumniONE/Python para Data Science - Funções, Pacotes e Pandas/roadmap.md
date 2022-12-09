@@ -15,3 +15,7 @@
 - Operações básicas com dicionários (pertinência, acesso, atribuição, etc)
 - A utilizar os métodos mais importantes de dicionários (update(), pop(), clear(), etc)
 - Técnicas de iteração por dicionários
+- A utilizar built-in functions no Python
+- A consultar a documentação do Python
+- Como definir funções com e sem o uso de argumentos
+- Como definir funções que retornam valores
