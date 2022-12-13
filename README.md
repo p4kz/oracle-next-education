@@ -118,7 +118,8 @@
     <em>Projetos práticos</em>
     <li>💻 <a href="./04 - AlumniONE/Python, Data Science no OCI e Oracle Analytics - ONE/Python para Data Science">Python para Data Science - basico</a></li>
     <li>💻 <a href="https://www.youtube.com/watch?v=5b9Z8toVaAU"> O que é Data Science? #HipstersPontoTube</a></li>
-    <li>💻 <a href="./04 - AlumniONE/Python para Data Science - Funções, Pacotes e Pandas/Python para Data Science - Funções, Pacotes e Pandas">Python para Data Science - Funções, Pacotes e Pandas</a></li>
+    <li>💻 <a href="./04 - AlumniONE/Python, Data Science no OCI e Oracle Analytics - ONE/Python para Data Science - Funções, Pacotes e Pandas">Python para Data Science - Funções, Pacotes e Pandas</a></li>
+    <li>💻 <a href="./04 - AlumniONE/Python, Data Science no OCI e Oracle Analytics - ONE/Python Pandas tratando e analisando dados">Python Pandas tratando e analisando dados</a></li>
   </ul>
   <br>
   <ul>
