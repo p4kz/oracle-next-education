@@ -46,3 +46,6 @@
 - Inversão de valores booleanos com ~
 - Como substituir os missing values com o método fillna()
 - Métodos de interpolação: ffill, bfill e mean()
+- Como criar variáveis
+- Como excluir variáveis utilizando del, pop() e drop()
+- Contadores, através do value_counts()
