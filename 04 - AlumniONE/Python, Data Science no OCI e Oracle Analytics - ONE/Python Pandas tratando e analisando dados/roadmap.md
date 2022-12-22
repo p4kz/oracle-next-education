@@ -49,3 +49,8 @@
 - Como criar variáveis
 - Como excluir variáveis utilizando del, pop() e drop()
 - Contadores, através do value_counts()
+- Como criar agrupamentos com o groupby()
+- Estatísticas descritivas com o describe() e o aggregate()
+- Como renomear as colunas com o rename()
+- Como fazer gráficos com o pacote Matplotlib
+- Como criar faixas de valor com o cut()
