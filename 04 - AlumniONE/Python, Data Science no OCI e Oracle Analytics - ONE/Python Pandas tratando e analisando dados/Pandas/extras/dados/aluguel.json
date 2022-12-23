@@ -1,0 +1,10 @@
+[{"Tipo":"Quitinete","Bairro":"Copacabana","Quartos":1,"Vagas":0,"Suites":0,"Area":40,"Valor":1700.0,"Condominio":500.0,"IPTU":60.0},
+{"Tipo":"Casa","Bairro":"Jardim Bot\u00e2nico","Quartos":2,"Vagas":0,"Suites":1,"Area":100,"Valor":7000.0,"Condominio":null,"IPTU":null},
+{"Tipo":"Conjunto Comercial\/Sala","Bairro":"Barra da Tijuca","Quartos":0,"Vagas":4,"Suites":0,"Area":150,"Valor":5200.0,"Condominio":4020.0,"IPTU":1111.0},
+{"Tipo":"Apartamento","Bairro":"Centro","Quartos":1,"Vagas":0,"Suites":0,"Area":15,"Valor":800.0,"Condominio":390.0,"IPTU":20.0},
+{"Tipo":"Apartamento","Bairro":"Higien\u00f3polis","Quartos":1,"Vagas":0,"Suites":0,"Area":48,"Valor":800.0,"Condominio":230.0,"IPTU":null},
+{"Tipo":"Apartamento","Bairro":"Vista Alegre","Quartos":3,"Vagas":1,"Suites":0,"Area":70,"Valor":1200.0,"Condominio":null,"IPTU":null},
+{"Tipo":"Apartamento","Bairro":"Cachambi","Quartos":2,"Vagas":0,"Suites":0,"Area":50,"Valor":1300.0,"Condominio":301.0,"IPTU":17.0},
+{"Tipo":"Casa de Condom\u00ednio","Bairro":"Barra da Tijuca","Quartos":5,"Vagas":4,"Suites":5,"Area":750,"Valor":22000.0,"Condominio":null,"IPTU":null},
+{"Tipo":"Casa de Condom\u00ednio","Bairro":"Ramos","Quartos":2,"Vagas":2,"Suites":0,"Area":65,"Valor":1000.0,"Condominio":null,"IPTU":null},
+{"Tipo":"Conjunto Comercial\/Sala","Bairro":"Centro","Quartos":0,"Vagas":3,"Suites":0,"Area":695,"Valor":35000.0,"Condominio":19193.0,"IPTU":3030.0}]

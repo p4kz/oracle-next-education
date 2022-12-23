@@ -1,0 +1,11 @@
+Tipo	Bairro	Quartos	Vagas	Suites	Area	Valor	Condominio	IPTU
+Quitinete	Copacabana	1	0	0	40	1700	500	60
+Casa	Jardim Botânico	2	0	1	100	7000		
+Conjunto Comercial/Sala	Barra da Tijuca	0	4	0	150	5200	4020	1111
+Apartamento	Centro	1	0	0	15	800	390	20
+Apartamento	Higienópolis	1	0	0	48	800	230	
+Apartamento	Vista Alegre	3	1	0	70	1200		
+Apartamento	Cachambi	2	0	0	50	1300	301	17
+Casa de Condomínio	Barra da Tijuca	5	4	5	750	22000		
+Casa de Condomínio	Ramos	2	2	0	65	1000		
+Conjunto Comercial/Sala	Centro	0	3	0	695	35000	19193	3030

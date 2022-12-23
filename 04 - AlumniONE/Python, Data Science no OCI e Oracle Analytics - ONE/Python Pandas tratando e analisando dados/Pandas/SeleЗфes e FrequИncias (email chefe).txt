@@ -1,0 +1,4 @@
+Selecione somente os imóveis classificados com tipo 'Apartamento'
+Selecione os imóveis classificados com tipos 'Casa', 'Casa de Condomínio' e 'Casa de Vila'
+Selecione os imóveis com área entre 60 e 100 metros quadrados, incluindo os limites
+Selecione os imóveis que tenham pelo menos 4 quartos e aluguel menor que R$ 2.000,00
