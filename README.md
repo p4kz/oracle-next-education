@@ -122,6 +122,10 @@
     <li>💻 <a href="./04 - AlumniONE/Python, Data Science no OCI e Oracle Analytics - ONE/Python Pandas tratando e analisando dados">Python Pandas tratando e analisando dados</a></li>
     <li>💻 <a href="https://cursos.alura.com.br/extra/hipsterstech/data-science-e-politica-na-operacao-serenata-de-amor-hipsters-62-a524">Data Science e Política na Operação Serenata de Amor #Podcast</a></li>
     <li>💻 <a href="./04 - AlumniONE/Python, Data Science no OCI e Oracle Analytics - ONE/Data Visualization - explorando com Seaborn">Data Visualization - explorando com Seaborn</a></li>
+    <li>💻 <a href="https://cursos.alura.com.br/extra/alura-mais/data-visualization-tipos-de-visualizacao-c1409">Data Visualization: tipos de visualização</a></li>
+    <li>💻 <a href="https://cursos.alura.com.br/extra/hipsterstech/machine-learning-hipsters-89-a496">Machine Learning #Podcast</a></li>
+    <li>💻 <a href="https://www.alura.com.br/artigos/conhecendo-os-tipos-de-aprendizado-de-maquina">Conhecendo os tipos de aprendizado de máquina</a></li>
+    <li>💻 <a href="./04 - AlumniONE/Python, Data Science no OCI e Oracle Analytics - ONE/Machine Learning - classificação com SKLearn">Machine Learning - classificação com SKLearn</a></li>
   </ul>
   <br>
   <ul>
