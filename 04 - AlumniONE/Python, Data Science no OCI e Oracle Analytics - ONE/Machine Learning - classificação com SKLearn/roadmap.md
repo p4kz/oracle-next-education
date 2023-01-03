@@ -25,3 +25,6 @@
 - Criação de um algoritmo base;
 - Capturar os valores mínimos e máximos.
 - Utilizar a função arange do numpy
+- Utilizar o módulo Support Vector Machine;
+- Gerar valores randômicos com o módulo SVC;
+- Utilizar o módulo Standard Scale.
