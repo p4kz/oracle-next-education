@@ -126,6 +126,10 @@
     <li>💻 <a href="https://cursos.alura.com.br/extra/hipsterstech/machine-learning-hipsters-89-a496">Machine Learning #Podcast</a></li>
     <li>💻 <a href="https://www.alura.com.br/artigos/conhecendo-os-tipos-de-aprendizado-de-maquina">Conhecendo os tipos de aprendizado de máquina</a></li>
     <li>💻 <a href="./04 - AlumniONE/Python, Data Science no OCI e Oracle Analytics - ONE/Machine Learning - classificação com SKLearn">Machine Learning - classificação com SKLearn</a></li>
+    <li>💻 <a href="https://www.alura.com.br/artigos/desmistificando-termos-machine-learning">Desmistificando termos em Machine Learning</a></li>
+    <li>💻 <a href="https://www.alura.com.br/artigos/classificando-textos-com-python">Classificando textos com Python</a></li>
+    <li>💻 <a href="https://cursos.alura.com.br/extra/hipsterstech/big-data-e-data-science-pra-que-afinal-hipsters-73-a513">Big Data e Data Science: pra quê afinal? #Podcast</a></li>
+    <li>💻 <a href="./04 - AlumniONE/Python, Data Science no OCI e Oracle Analytics - ONE/Machine Learning - otimização de modelos através de hiperparâmetros">Machine Learning - otimização de modelos através de hiperparâmetros</a></li>
   </ul>
   <br>
   <ul>
