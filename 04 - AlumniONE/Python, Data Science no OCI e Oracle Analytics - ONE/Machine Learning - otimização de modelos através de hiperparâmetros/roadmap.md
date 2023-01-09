@@ -8,3 +8,6 @@
   - Definir os elementos mínimos em uma árvore de decisão;
   - Utilizar o min_samples_leaf para treino;
   - O que é corr do pandas;
+  - Utilizar mais do que um hiperparâmetro
+  - Gerar um gráfico com matplotlib;
+  - O que é min_samples_split;
