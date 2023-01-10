@@ -11,3 +11,5 @@
   - Utilizar mais do que um hiperparâmetro
   - Gerar um gráfico com matplotlib;
   - O que é min_samples_split;
+  - Utilizar o GridSearchCV;
+  - Utilizar o accuracy_score.
