@@ -13,3 +13,6 @@
   - O que é min_samples_split;
   - Utilizar o GridSearchCV;
   - Utilizar o accuracy_score.
+  - O que é nested cross validation;
+  - Importar o GroupKFold;
+  - Visualizar o melhor estimador.
