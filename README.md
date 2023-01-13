@@ -130,6 +130,7 @@
     <li>💻 <a href="https://www.alura.com.br/artigos/classificando-textos-com-python">Classificando textos com Python</a></li>
     <li>💻 <a href="https://cursos.alura.com.br/extra/hipsterstech/big-data-e-data-science-pra-que-afinal-hipsters-73-a513">Big Data e Data Science: pra quê afinal? #Podcast</a></li>
     <li>💻 <a href="./04 - AlumniONE/Python, Data Science no OCI e Oracle Analytics - ONE/Machine Learning - otimização de modelos através de hiperparâmetros">Machine Learning - otimização de modelos através de hiperparâmetros</a></li>
+    <li>💻 <a href="./04 - AlumniONE/Python, Data Science no OCI e Oracle Analytics - ONE/Oracle ADS análise de dados na nuvem">Oracle ADS análise de dados na nuvem</a></li>
   </ul>
   <br>
   <ul>
